@@ -1,0 +1,28 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# virtual environment directories
+venv/
+env/
+
+# additional files
+reference/
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Vim swap files
+*.swp
+
+# backup files
+*.bak

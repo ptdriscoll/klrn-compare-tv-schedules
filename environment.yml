@@ -1,0 +1,12 @@
+name: klrn-compare-tv-schedules
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pandas
+  - beautifulsoup4
+  - lxml  
+  - pip
+  - pip:
+      - pypdf
