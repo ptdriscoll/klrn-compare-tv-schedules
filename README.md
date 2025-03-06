@@ -8,7 +8,7 @@ The app is currently set up to parse raw files from two sources, which should be
 
 - [ProTrack broadcast management solution](https://myersinfosys.com/protrack-tv/): An Air Date Search Report - with the headers Channel, Air Date, Type, Air Time, Program Title, Source - downloaded as a `.pdf`
 
-- [TitanTV MediaStar Scheduler](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-scheduler/): A schedule page set to a channel, saved as `Webpage, Single File (\*.mhtml)`, with the channel (e.g., 9.1) appended to the file name
+- [TitanTV MediaStar Editor](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-editor/): A schedule page set to a channel, saved as `Webpage, Single File (\*.mhtml)`, with the channel (e.g., 9.1) appended to the file name
 
 ### Config Setup
 
@@ -72,6 +72,6 @@ Examples:
 ### References
 
 - [ProTrack broadcast management solution](https://myersinfosys.com/protrack-tv/)
-- [TitanTV MediaStar Scheduler](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-scheduler/)
+- [TitanTV MediaStar Editor](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-editor/)
 - [Anaconda](https://www.anaconda.com/download/)
 - [Miniconda](https://docs.anaconda.com/miniconda/)
