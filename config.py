@@ -10,6 +10,6 @@ FILES = {
 
 # variables for call to PBS TV Schedules API
 load_dotenv()
-PBS_TV_SCHEDULE_API_KEY = os.geteven('PBS_TV_SCHEDULE_API_KEY') 
+PBS_TV_SCHEDULE_API_KEY = os.getenv('PBS_TV_SCHEDULE_API_KEY') 
 PBS_TV_SCHEDULE_ENDPOINT = 'https://tvss.services.pbs.org/tvss/'
 STATION_CALL_SIGN = 'klrn'

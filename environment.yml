@@ -8,6 +8,7 @@ dependencies:
   - beautifulsoup4
   - lxml
   - python-dotenv
+  - requests
   - pip
   - pip:
       - pypdf
