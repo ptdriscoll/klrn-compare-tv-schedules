@@ -6,7 +6,8 @@ dependencies:
   - python=3.13
   - pandas
   - beautifulsoup4
-  - lxml  
+  - lxml
+  - python-dotenv
   - pip
   - pip:
       - pypdf

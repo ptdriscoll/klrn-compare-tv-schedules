@@ -10,6 +10,7 @@ env/
 reference/
 *.log
 *.tmp
+.env
 
 # macOS
 .DS_Store
