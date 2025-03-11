@@ -12,7 +12,7 @@ headers = {
     'X-PBSAUTH': PBS_TV_SCHEDULE_API_KEY
 }
 
-def get_sched_json(url, date):
+def get_schedule_day(url, date):
     url += date
     response = requests.get(url, headers=headers)
 
@@ -22,14 +22,21 @@ def get_sched_json(url, date):
     else:
         print(f'Error: {response.status_code}, {response.text}')
 
-print()
-today = datetime.now()   
-today_str = today.strftime('%Y%m%d')     
-sched_today_json = get_sched_json(start_url, today_str)
+def get_schedule(days=7, output_path=''):
+    day = datetime.now() 
+    today_str = day.strftime('%Y%m%d')
+    output = f'{output_path}pbs.json'    
+    result = {
+        "date": today_str
+    }
 
-result = {
-    "date": today_str,
-    "schedToday": sched_today_json
-}
+    for x in range(days):
+        day += timedelta(days=x)
+        day_str = day.strftime('%Y%m%d')
+        result[day_str] = get_schedule_day(start_url, day_str)         
 
-print(result)
+    with open(output, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2) 
+
+    print(f"Schedule saved to {output}")       
+    
