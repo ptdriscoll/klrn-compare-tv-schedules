@@ -4,7 +4,8 @@ from config import FILES
 
 PARSERS = {
     'protrack': 'parsers.protrack.process',
-    'titan': 'parsers.titan.process'
+    'titan': 'parsers.titan.process',
+    'pbs': 'parsers.pbs.process'
 }   
 
 def get_input_output_paths(source):
@@ -81,8 +82,24 @@ def compare_schedules(source_1, source_2, channel='9.1'):
     if channel == '9': channel = '9.1'
     compare(parsed_path_1, parsed_path_2, output_path, channel)
 
+def get_schedule_from_api(source, days):
+    """
+    Retrieve raw TV schedule data from an API and store it for later processing.
+
+    Args:
+        source (str): The source of the TV schedule data (e.g., 'pbs').
+        days (int): The number of days of data to retrieve.
+
+    Returns:
+        None: The retrieved data is saved to a designated location.
+    """
+
+    from api.pbs import get_schedule
+    input_path, _ = get_input_output_paths(source) # output will go to data folder, as an input later
+    get_schedule(input_path, days)
+
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Parse and/or compare TV schedules')
+    parser = argparse.ArgumentParser(description='Parse or compare TV schedules, or get schedule data')
     subparsers = parser.add_subparsers(dest='command', required=True)
     choices = list(PARSERS.keys()) 
 
@@ -95,7 +112,13 @@ if __name__ == '__main__':
     compare.add_argument('sources', nargs=2, choices=choices, help='Sources to compare')
     compare.add_argument('channel', nargs='?', default='9.1', help='Optional channel to filter for (default: 9.1)')
 
+    # get command
+    get_parser = subparsers.add_parser('get', help='Get raw TV schedule data from a source')
+    get_parser.add_argument('source', choices=['pbs'], help='Source to get data from')
+    get_parser.add_argument('--days', type=int, default=7, help='Number of days of data to retrieve (default: 7)')
+
     args = parser.parse_args()
 
     if args.command == 'parse': parse_schedule(args.source)
     elif args.command == 'compare': compare_schedules(args.sources[0], args.sources[1], args.channel)
+    elif args.command == 'get': get_schedule_from_api(args.source, args.days)
