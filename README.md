@@ -17,8 +17,23 @@ In `config.py`, a dictionary called `FILES` maps each parser to a raw file place
 ```
 FILES = {
     'protrack': 'February 2025 Schedule.pdf', # .pdf format
-    'titan': 'MediaStar_9.2.mhtml' # .mhtml format
+    'titan': 'MediaStar_9.1.mhtml', # .mhtml format
+    'pbs': 'pbs.json' # .json format
 }
+```
+
+Also, to call the [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>) to fetch a raw schedule and place it in `/data`, several variables need to be set here:
+
+```
+PBS_TV_SCHEDULE_API_KEY = os.getenv('PBS_TV_SCHEDULE_API_KEY')
+PBS_TV_SCHEDULE_ENDPOINT = 'https://tvss.services.pbs.org/tvss/'
+STATION_CALL_SIGN = 'klrn'
+```
+
+PBS stations can [request an API key](https://digitalsupport.pbs.org/support/tickets/new). To get the key to load into `config.py`, create an `.env` file, add the variable `PBS_TV_SCHEDULE_API_KEY` and set the variable to the key's value:
+
+```
+PBS_TV_SCHEDULE_API_KEY=<api_key>
 ```
 
 ### Code Setup
@@ -48,10 +63,20 @@ Parse a file:
 - `python run.py parse protrack`
 - `python run.py parse titan`
 
-Compare two files, with optional fourth argument to designate channel (defaults to 9.1):
+Compare two files, with optional argument to designate the channel (defaults to 9.1):
 
 - `python run.py compare protrack titan`
-- `python run.py compare protrack titan 9.2`
+- `python run.py compare protrack titan --channel 9.2`
+
+Use API to retrieve raw PBS TV schedule as JSON, and place it in `/data`, with option to designate how many days (defaults to 7):
+
+- `python run.py get pbs`
+- `python run.py get pbs --days 14`
+
+Utility to explore JSON file, with options to designate max level and how many items to show in lists (defaults to, respectively 4 and 6)
+
+- `python run.py explore data/pbs.json`
+- `python run.py explore data/pbs.json --level 3 --items 3`
 
 ### Output
 
@@ -73,5 +98,6 @@ Examples:
 
 - [ProTrack broadcast management solution](https://myersinfosys.com/protrack-tv/)
 - [TitanTV MediaStar Editor](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-editor/)
+- [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>)
 - [Anaconda](https://www.anaconda.com/download/)
 - [Miniconda](https://docs.anaconda.com/miniconda/)
