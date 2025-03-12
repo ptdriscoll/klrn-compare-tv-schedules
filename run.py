@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import argparse
 from config import FILES
 
@@ -98,6 +99,21 @@ def get_schedule_from_api(source, days):
     input_path, _ = get_input_output_paths(source) # output will go to data folder, as an input later
     get_schedule(input_path, days)
 
+def explore_file(input_path, level=3, items=3):
+    """
+    Explore a JSON file by calling the `explore_json` function with specified levels and items.
+
+    Args:
+        input_path (str): Path to the JSON file to explore.
+        level (int): Number of levels to explore in the JSON structure.
+        items (int): Number of items to show from each list in the JSON data.
+    """
+
+    from utils.json_explorer import explore_json_file
+    base_dir = Path(__file__).resolve().parent
+    input_path = base_dir / input_path
+    explore_json_file(input_path, max_level=level, max_items=items)   
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Parse or compare TV schedules, or get schedule data')
     subparsers = parser.add_subparsers(dest='command', required=True)
@@ -117,8 +133,15 @@ if __name__ == '__main__':
     get_parser.add_argument('source', choices=['pbs'], help='Source to get data from')
     get_parser.add_argument('--days', type=int, default=7, help='Number of days of data to retrieve (default: 7)')
 
+    # explore json data command
+    explore = subparsers.add_parser('explore', help='Explore a JSON file')
+    explore.add_argument('file', help='Relative path to the JSON file from root directory')
+    explore.add_argument('--level', type=int, default=4, help='Number of levels to explore (default: 4)')
+    explore.add_argument('--items', type=int, default=6, help='Number of items to show per list (default: 6)')
+
     args = parser.parse_args()
 
     if args.command == 'parse': parse_schedule(args.source)
     elif args.command == 'compare': compare_schedules(args.sources[0], args.sources[1], args.channel)
     elif args.command == 'get': get_schedule_from_api(args.source, args.days)
+    elif args.command == 'explore': explore_file(args.file, args.level, args.items)
