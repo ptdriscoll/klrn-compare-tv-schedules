@@ -1,5 +1,5 @@
 import sys
-import os
+from pathlib import Path
 import email
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -226,7 +226,7 @@ def parse(input_path, output_path):
             df['Date'] = pd.to_datetime(df['Date'])
             
             # get TV channel from file name, and add as column to df
-            file_name = os.path.basename(input_path)
+            file_name = Path(input_path).name
             match = re.search(r'_(.*?)\.mhtml$', file_name)
             channel = match.group(1) if match else '9.1'
             df.insert(0, 'Channel', channel) 

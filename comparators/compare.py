@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 import pandas as pd
 
 def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
@@ -63,8 +63,8 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
     datetime_end = min(df_1['DateTime'].max(), df_2['DateTime'].max())
 
     # create column suffixes
-    file_1_name = os.path.basename(path_1).replace('.csv', '')
-    file_2_name = os.path.basename(path_2).replace('.csv', '')   
+    file_1_name = Path(path_1).stem
+    file_2_name = Path(path_2).stem 
     suffixes = [f' - {file_1_name}', f' - {file_2_name}']
 
     # add suffixes to unique columns in each df

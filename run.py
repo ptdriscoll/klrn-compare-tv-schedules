@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 import argparse
 from config import FILES
@@ -22,15 +21,14 @@ def get_input_output_paths(source):
     """
     
     # set up absolute paths
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    ROOT_DIR = os.path.normpath(os.path.join(base_dir, '.')) 
-    output_dir = os.path.join(ROOT_DIR, 'output')
+    ROOT_DIR = Path(__file__).resolve().parent
+    output_dir = ROOT_DIR / 'output'
 
     # create input and output paths
-    input_path = os.path.join(ROOT_DIR, 'data', FILES[source])
-    output_path = os.path.join(output_dir, f'{source}.csv') 
+    input_path = ROOT_DIR / 'data' / FILES[source]
+    output_path = output_dir / f'{source}.csv'
 
-    return input_path, output_path    
+    return str(input_path), str(output_path)  
 
 def parse_schedule(source, input_path='', output_path=''):
     """
@@ -70,17 +68,21 @@ def compare_schedules(source_1, source_2, channel='9.1'):
 
     # get first parsed file
     input_path_1, parsed_path_1 = get_input_output_paths(source_1)
-    if not os.path.exists(parsed_path_1): parse_schedule(source_1, input_path_1, parsed_path_1)
+    if not Path(parsed_path_1).exists(): parse_schedule(source_1, input_path_1, parsed_path_1)
 
     # get second parsed file
     input_path_2, parsed_path_2 = get_input_output_paths(source_2)
-    if not os.path.exists(parsed_path_2): parse_schedule(source_2, input_path_2, parsed_path_2)
+    if not Path(parsed_path_2).exists(): parse_schedule(source_2, input_path_2, parsed_path_2)
     
     # compare files
-    output_dir = os.path.dirname(parsed_path_1)
+    output_dir = Path(parsed_path_1).parent
     output_file = f'{source_1}_{source_2}.csv'
-    output_path = os.path.join(output_dir, output_file)
-    if channel == '9': channel = '9.1'
+    output_path = str(output_dir / output_file)
+
+    # handle channel assignment
+    channel = '9.1' if channel == '9' else channel
+
+    # run comparison
     compare(parsed_path_1, parsed_path_2, output_path, channel)
 
 def get_schedule_from_api(source, days):
