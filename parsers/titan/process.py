@@ -1,4 +1,5 @@
 import sys
+import os
 import email
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -219,16 +220,17 @@ def parse(input_path, output_path):
             if len(df.columns) == len(dates):
                 df.columns = dates
             else: print('Number of dates did not match number of columns') 
-            
+              
             # collapse headers into one column, and data from columns into second column  
             df = df.melt(var_name='Date', value_name='Program Info').dropna(subset=['Program Info'])
             df['Date'] = pd.to_datetime(df['Date'])
             
             # get TV channel from file name, and add as column to df
-            match = re.search(r'_(.*?)\.mhtml$', input_path)
+            file_name = os.path.basename(input_path)
+            match = re.search(r'_(.*?)\.mhtml$', file_name)
             channel = match.group(1) if match else '9.1'
-            print(channel)
             df.insert(0, 'Channel', channel) 
+            
             df['Channel'] = df['Channel'].astype(str) 
 
             # remove extra white spaces

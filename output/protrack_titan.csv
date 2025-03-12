@@ -1,348 +1,249 @@
-MISMATCH,Channel,Date,Start Time,Program Name - Reference,Episode Number - Reference,Program Name - Comparison,Episode Number - Comparison,Description
-,9.2,2025-02-18,06:00:00,Newsroom Tokyo,#25035,Newsroom Tokyo,#25035,
-,9.2,2025-02-18,06:27:00,Newsline In Depth,#25035,Newsline In Depth,,
-YES,9.2,2025-02-18,06:39:55,Direct Talk,#25035,,,
-YES,9.2,2025-02-18,06:40:00,,,Direct Talk,#25035,
-,9.2,2025-02-18,07:00:00,Finding Fellowship,#0,Finding Fellowship,,
-,9.2,2025-02-18,08:00:00,"Local, Usa",#812,"Local, USA",#812,Silence In Sikeston
-,9.2,2025-02-18,09:00:00,Lincoln School Story,#0,Lincoln School Story,,
-,9.2,2025-02-18,09:30:00,Stories from the Stage,#409,Stories from the Stage,#409,Growing Up Black Part 2
-,9.2,2025-02-18,10:00:00,Prince Among Slaves,#0,Prince Among Slaves,,
-,9.2,2025-02-18,11:00:00,Sit and Be Fit,#1509,Sit and Be Fit,#1509,Core Strengthening
-YES,9.2,2025-02-18,11:30:00,Classical Stretch: By Essentrics,#1304,Classical Stretch,#1304,Boost Your Brain with Miranda Esmonde-White
-YES,9.2,2025-02-18,12:00:00,Consuelo Mack Wealthtrack,#2133,Consuelo Mack Wealth Track,#2133,
-,9.2,2025-02-18,12:30:00,Asia Insight,#1233,Asia Insight,#1233,
-YES,9.2,2025-02-18,13:00:00,American Masters,#309,American Masters,#404,James Baldwin: The Price of the Ticket
-,9.2,2025-02-18,14:30:00,Independent Lens,#2407,Independent Lens,#2407,The Picture Taker
-,9.2,2025-02-18,16:00:00,First Peoples,#103,First Peoples,#103,Asia
-,9.2,2025-02-18,17:00:00,France 24,#25035,France 24,#25035,
-YES,9.2,2025-02-18,17:30:00,,,Newsline,#15167,
-YES,9.2,2025-02-18,17:30:07,Nhk Newsline,#15167,,,
-,9.2,2025-02-18,18:00:00,Woodsongs,#2601,WoodSongs,#2601,The Kruger Brothers and the Friel Sisters
-,9.2,2025-02-18,19:00:00,The Pbs News Hour,#14667,The PBS News Hour,#14667,
-,9.2,2025-02-18,20:00:00,Great Performances,#4516,Great Performances,#4516,Romeo and Juliet
-YES,9.2,2025-02-18,22:00:00,Dw The Day,#14037,The Day,#14037,
-,9.2,2025-02-18,22:30:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-18,23:00:00,Nova,#5204,NOVA,#5204,Egypt's Tombs of Amun
-,9.2,2025-02-19,00:00:00,Secrets of the Dead,#1704,Secrets of the Dead,#1704,Egypt's Darkest Hour
-,9.2,2025-02-19,01:00:00,Journeys of Black Mathematicians,#101,Journeys of Black Mathematicians,#101,Forging Resilience
-,9.2,2025-02-19,02:00:00,The Pbs News Hour,#14667,The PBS News Hour,#14667,
-,9.2,2025-02-19,03:00:00,Amanpour and Company,#7167,Amanpour and Company,#7167,
-,9.2,2025-02-19,04:00:00,Great Migrations: A People on the Move,#103,Great Migrations: A People on the Move,#103,One Way Ticket Back
-,9.2,2025-02-19,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-19,05:30:00,Gzero World with Ian Bremmer,#733,GZero World with Ian Bremmer,#733,
-,9.2,2025-02-19,06:00:00,Newsroom Tokyo,#25036,Newsroom Tokyo,#25036,
-,9.2,2025-02-19,06:27:00,Newsline In Depth,#25036,Newsline In Depth,,
-YES,9.2,2025-02-19,06:39:55,Direct Talk,#25036,,,
-YES,9.2,2025-02-19,06:40:00,,,Direct Talk,#25036,
-,9.2,2025-02-19,07:00:00,Nova,#5204,NOVA,#5204,Egypt's Tombs of Amun
-,9.2,2025-02-19,08:00:00,Secrets of the Dead,#1704,Secrets of the Dead,#1704,Egypt's Darkest Hour
-,9.2,2025-02-19,09:00:00,Journeys of Black Mathematicians,#101,Journeys of Black Mathematicians,#101,Forging Resilience
-,9.2,2025-02-19,10:00:00,Great Migrations: A People on the Move,#103,Great Migrations: A People on the Move,#103,One Way Ticket Back
-,9.2,2025-02-19,11:00:00,Sit and Be Fit,#1510,Sit and Be Fit,#1510,Hip Mobility
-YES,9.2,2025-02-19,11:30:00,Classical Stretch: By Essentrics,#1305,Classical Stretch,#1305,Energy Boosting with Miranda Esmonde-White
-,9.2,2025-02-19,12:00:00,To The Contrary with Bonnie Erbe,#3348,To the Contrary with Bonnie Erbe,#3348,
-,9.2,2025-02-19,12:30:00,Energy Switch,#105,Energy Switch,#105,Is Hydrogen Our Energy Future?
-,9.2,2025-02-19,13:00:00,Independent Lens,#2505,Independent Lens,#2505,Racist Trees
-,9.2,2025-02-19,14:30:00,Independent Lens,#2506,Independent Lens,#2506,Razing Liberty Square
-,9.2,2025-02-19,16:00:00,Animal Babies: First Year On Earth,#102,Animal Babies: First Year on Earth,#102,Testing Limits
-,9.2,2025-02-19,17:00:00,France 24,#25036,France 24,#25036,
-YES,9.2,2025-02-19,17:30:00,,,Newsline,#15168,
-YES,9.2,2025-02-19,17:30:07,Nhk Newsline,#15168,,,
-,9.2,2025-02-19,18:00:00,Song of the Mountains,#1905,Song of the Mountains,#1905,Dwight Hawkins & The Piedmont Highballers/Songs from the Road Band
-,9.2,2025-02-19,19:00:00,The Pbs News Hour,#14668,The PBS News Hour,#14668,
-YES,9.2,2025-02-19,19:57:30,The Congress,#0,,,
-YES,9.2,2025-02-19,20:00:00,,,Congress,,
-YES,9.2,2025-02-19,21:28:15,Statue of Liberty,#0,,,
-YES,9.2,2025-02-19,21:30:00,,,Statue of Liberty,,
-,9.2,2025-02-19,22:30:00,Bbc News,#1028,BBC News,#1028,
-,9.2,2025-02-19,23:00:00,Uprooted,#0,Uprooted,,
-,9.2,2025-02-19,23:30:00,Independent Lens,#2612,Independent Lens,#2612,Skin of Glass
-,9.2,2025-02-20,01:00:00,Frontline,#4314,Frontline,#4314,Battle for Tibet
-,9.2,2025-02-20,02:00:00,The Pbs News Hour,#14668,The PBS News Hour,#14668,
-,9.2,2025-02-20,03:00:00,Amanpour and Company,#7168,Amanpour and Company,#7168,
-,9.2,2025-02-20,04:00:00,Variety Studio: Actors On Actors,#2101,Variety Studio: Actors on Actors,#2101,
-,9.2,2025-02-20,04:30:00,Variety Studio: Actors On Actors,#2102,Variety Studio: Actors on Actors,#2102,
-,9.2,2025-02-20,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-20,05:30:00,Story in the Public Square,#1408,Story in the Public Square,#1408,Alice Marwick
-,9.2,2025-02-20,06:00:00,Newsroom Tokyo,#25037,Newsroom Tokyo,#25037,
-,9.2,2025-02-20,06:27:00,Newsline In Depth,#25037,Newsline In Depth,,
-YES,9.2,2025-02-20,06:39:55,Direct Talk,#25037,,,
-YES,9.2,2025-02-20,06:40:00,,,Direct Talk,#25037,
-,9.2,2025-02-20,07:00:00,Uprooted,#0,Uprooted,,
-,9.2,2025-02-20,07:30:00,Independent Lens,#2612,Independent Lens,#2612,Skin of Glass
-,9.2,2025-02-20,09:00:00,Frontline,#4314,Frontline,#4314,Battle for Tibet
-,9.2,2025-02-20,10:00:00,Variety Studio: Actors On Actors,#2101,Variety Studio: Actors on Actors,#2101,
-,9.2,2025-02-20,10:30:00,Variety Studio: Actors On Actors,#2102,Variety Studio: Actors on Actors,#2102,
-,9.2,2025-02-20,11:00:00,Sit and Be Fit,#1601,Sit and Be Fit,#1601,Music and Novelty
-YES,9.2,2025-02-20,11:30:00,Classical Stretch: By Essentrics,#1306,Classical Stretch,#1306,Spinal Fascia with Miranda Esmonde-White
-,9.2,2025-02-20,12:00:00,Story in the Public Square,#1408,Story in the Public Square,#1408,
-,9.2,2025-02-20,12:30:00,Second Opinion with Joan Lunden,#1806,Second Opinion with Joan Lunden,#1806,Pre-Diabetes
-YES,9.2,2025-02-20,13:00:00,Black/White & Brown: Brown Versus The Board of Education,,Black/White & Brown: Brown Versus the Board of Education of Topeka,,
-YES,9.2,2025-02-20,14:00:00,Can We All Get Along? The Segregation of John Muir High,,Can We All Get Along? The Segregation of John Muir High School,,
-,9.2,2025-02-20,15:00:00,The Exchange: Kaukauna & King 50 Years Later,#0,The Exchange: Kaukauna & King 50 Years Later,,
-,9.2,2025-02-20,16:00:00,Lucy Worsley's Holmes Vs. Doyle,#101,Lucy Worsley's Holmes vs. Doyle,#101,Doctor and Detective
-,9.2,2025-02-20,17:00:00,France 24,#25037,France 24,#25037,
-YES,9.2,2025-02-20,17:30:00,,,Newsline,#15169,
-YES,9.2,2025-02-20,17:30:07,Nhk Newsline,#15169,,,
-,9.2,2025-02-20,18:00:00,The Kate,#505,The Kate,#505,Kandace Springs
-,9.2,2025-02-20,19:00:00,The Pbs News Hour,#14669,The PBS News Hour,#14669,
-,9.2,2025-02-20,20:00:00,Animal Babies: First Year On Earth,#103,Animal Babies: First Year on Earth,#103,New Frontiers
-,9.2,2025-02-20,21:00:00,"Spy in the Ocean, A Nature Miniseries",#103,"Spy in the Ocean, A Nature Miniseries",#103,Deep Relationships
-YES,9.2,2025-02-20,22:00:00,Dw The Day,#14039,The Day,#14039,
-,9.2,2025-02-20,22:30:00,Bbc News,#101,BBC News,#101,
-YES,9.2,2025-02-20,23:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-21,00:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-YES,9.2,2025-02-21,01:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-,9.2,2025-02-21,02:00:00,The Pbs News Hour,#14669,The PBS News Hour,#14669,
-,9.2,2025-02-21,03:00:00,Amanpour and Company,#7169,Amanpour and Company,#7169,
-,9.2,2025-02-21,04:00:00,Lincoln School Story,#0,Lincoln School Story,,
-,9.2,2025-02-21,04:30:00,Stories from the Stage,#409,Stories from the Stage,#409,Growing Up Black Part 2
-,9.2,2025-02-21,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-21,05:30:00,Closer to Truth's Global Philosophy of Religion,#105,Closer to Truth's Global Philosophy of Religion,#105,Global Philosophy: Why Inner Life Practices?
-,9.2,2025-02-21,06:00:00,Newsroom Tokyo,#25038,Newsroom Tokyo,#25038,
-,9.2,2025-02-21,06:27:00,Newsline In Depth,#25038,Newsline In Depth,,
-YES,9.2,2025-02-21,06:39:55,Direct Talk,#25038,,,
-YES,9.2,2025-02-21,06:40:00,,,Direct Talk,#25038,
-YES,9.2,2025-02-21,07:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-21,08:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-YES,9.2,2025-02-21,09:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-,9.2,2025-02-21,10:00:00,Lincoln School Story,#0,Lincoln School Story,,
-YES,9.2,2025-02-21,10:30:00,Stories from the Stage,#409,,,
-,9.2,2025-02-21,11:00:00,Sit and Be Fit,#1602,Sit and Be Fit,#1602,Imagining Resistance
-YES,9.2,2025-02-21,11:30:00,Classical Stretch: By Essentrics,#1307,Classical Stretch,#1307,Strengthen the Feet and Legs with Miranda Esmonde-White
-YES,9.2,2025-02-21,12:00:00,Sister Boniface Mysteries,#101,Sister Boniface Mysteries,#1,Unnatural Causes
-YES,9.2,2025-02-21,13:00:00,Father Brown,#192,Father Brown,#902,The Viper's Tongue
-YES,9.2,2025-02-21,14:00:00,Little Women On Masterpiece,#4816,Little Women,#102,
-YES,9.2,2025-02-21,15:00:00,Maryland On Masterpiece,#5424,MaryLand,#102,
-,9.2,2025-02-21,16:00:00,Acl Presents: Willie Nelson & Family,#0,Acl Presents: Willie Nelson & Family,,
-,9.2,2025-02-21,17:00:00,France 24,#25038,France 24,#25038,
-YES,9.2,2025-02-21,17:30:00,,,Newsline,#15170,
-YES,9.2,2025-02-21,17:30:07,Nhk Newsline,#15170,,,
-,9.2,2025-02-21,18:00:00,Song of the Mountains,#1904,Song of the Mountains,#1904,Nothin' Fancy - Emisunshine & The Rain
-,9.2,2025-02-21,19:00:00,The Pbs News Hour,#14670,The PBS News Hour,#14670,
-,9.2,2025-02-21,20:00:00,Hope in the Struggle: The Josie Johnson Story,#0,Hope in the Struggle: The Josie Johnson Story,,
-,9.2,2025-02-21,21:00:00,Making Black America: Through The Grapevine,#104,Making Black America: Through the Grapevine,#104,"Life Beyond the Veil, Episode Four"
-YES,9.2,2025-02-21,22:00:00,Dw The Day,#14040,The Day,#14040,
-,9.2,2025-02-21,22:30:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-21,23:00:00,Ida B. Wells: American Stories,#0,Ida B. Wells: American Stories,,
-,9.2,2025-02-22,00:00:00,American Experience,#3605,American Experience,#3605,The Riot Report
-,9.2,2025-02-22,02:00:00,The Pbs News Hour,#14670,The PBS News Hour,#14670,
-,9.2,2025-02-22,03:00:00,Amanpour and Company,#7170,Amanpour and Company,#7170,
-,9.2,2025-02-22,04:00:00,Journeys of Black Mathematicians,#101,Journeys of Black Mathematicians,#101,Forging Resilience
-YES,9.2,2025-02-22,05:00:00,Whitney Reynolds Show,#505,The Whitney Reynolds Show,#505,"Peace, Love and Mental Health"
-YES,9.2,2025-02-22,05:30:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
-,9.2,2025-02-22,06:00:00,To The Contrary with Bonnie Erbe,#3349,To the Contrary with Bonnie Erbe,#3349,
-,9.2,2025-02-22,06:30:00,Washington Week with the Atlantic,#6434,Washington Week with The Atlantic,#6434,
-,9.2,2025-02-22,07:00:00,Ida B. Wells: American Stories,#0,Ida B. Wells: American Stories,,
-,9.2,2025-02-22,08:00:00,American Experience,#3605,American Experience,#3605,The Riot Report
-YES,9.2,2025-02-22,10:00:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
-YES,9.2,2025-02-22,10:30:00,Whitney Reynolds Show,#505,The Whitney Reynolds Show,#505,"Peace, Love and Mental Health"
-,9.2,2025-02-22,11:00:00,Nova,#5205,NOVA,#5205,Pompeii's Secret Underworld
-,9.2,2025-02-22,12:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,Plunderer: The Life and Times of a Nazi Art Thief (Part One)
-,9.2,2025-02-22,13:00:00,"Spy in the Ocean, A Nature Miniseries",#103,"Spy in the Ocean, A Nature Miniseries",#103,Deep Relationships
-,9.2,2025-02-22,14:00:00,Animal Babies: First Year On Earth,#103,Animal Babies: First Year on Earth,#103,New Frontiers
-,9.2,2025-02-22,15:00:00,American Masters,#3607,American Masters,#3607,The Disappearance of Miss Scott
-,9.2,2025-02-22,16:30:00,History with David Rubenstein,#602,History with David Rubenstein,#602,Lindsay Chervinsky
-YES,9.2,2025-02-22,17:00:00,Tell Me More with Kelly Corrigan,#205,Tell Me More with Kelly Corrigan,#103,Jennifer Garner
-YES,9.2,2025-02-22,17:30:00,Tell Me More with Kelly Corrigan,#206,,,
-,9.2,2025-02-22,18:00:00,Variety Studio: Actors On Actors,#2103,Variety Studio: Actors on Actors,#2103,
-,9.2,2025-02-22,18:30:00,Variety Studio: Actors On Actors,#2104,Variety Studio: Actors on Actors,#2104,
-,9.2,2025-02-22,19:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,Coming to America
-,9.2,2025-02-22,20:00:00,John Lewis - Get in the Way,#0,John Lewis - Get in the Way,,
-YES,9.2,2025-02-22,21:00:00,French Village,#107,A French Village,#107,The Lottery
-YES,9.2,2025-02-22,22:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-22,23:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-,9.2,2025-02-23,00:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,Coming to America
-,9.2,2025-02-23,01:00:00,John Lewis - Get in the Way,#0,John Lewis - Get in the Way,,
-YES,9.2,2025-02-23,02:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-,9.2,2025-02-23,03:00:00,Finding Fellowship,#0,Finding Fellowship,,
-,9.2,2025-02-23,04:00:00,"Local, Usa",#812,"Local, USA",#812,Silence In Sikeston
-,9.2,2025-02-23,05:00:00,On Story,#1314,On Story,#1314,A Conversation with Sarah Polley
-,9.2,2025-02-23,05:30:00,To The Contrary with Bonnie Erbe,#3349,To the Contrary with Bonnie Erbe,#3349,
-,9.2,2025-02-23,06:00:00,Washington Week with the Atlantic,#6434,Washington Week with The Atlantic,#6434,
-,9.2,2025-02-23,06:30:00,The Open Mind,#4420,The Open Mind,#4420,
-YES,9.2,2025-02-23,07:00:00,Dw Focus On Europe,#4309,Focus on Europe,#4309,
-YES,9.2,2025-02-23,07:30:00,Dw Global Us,#1708,Global Us,#1708,
-YES,9.2,2025-02-23,08:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-23,09:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-,9.2,2025-02-23,10:00:00,The Chavis Chronicles,#521,The Chavis Chronicles,#521,
-,9.2,2025-02-23,10:30:00,Laura Flanders & Friends,#147,Laura Flanders & Friends,#147,
-YES,9.2,2025-02-23,11:00:00,Little Women On Masterpiece,#4817,Little Women,#103,
-YES,9.2,2025-02-23,12:00:00,Maryland On Masterpiece,#5425,MaryLand,#103,
-,9.2,2025-02-23,13:00:00,American Masters,#3311,American Masters,#3311,Marian Anderson: The Whole World in Her Hands
-,9.2,2025-02-23,15:00:00,American Masters,#3607,American Masters,#3607,The Disappearance of Miss Scott
-YES,9.2,2025-02-23,16:30:00,All-Star Orchestra,#604,The All-Star Orchestra,#604,"Schubert's Immortal ""Unfinished Symphony"""
-,9.2,2025-02-23,17:30:00,On The Record,#807,On the Record,#807,
-YES,9.2,2025-02-23,18:00:00,French Village,#107,A French Village,#107,The Lottery
-,9.2,2025-02-23,19:00:00,Nature,#4309,Nature,#4309,Museum Alive with David Attenborough
-,9.2,2025-02-23,20:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,The Ties that Bind
-,9.2,2025-02-23,21:00:00,American Masters,#3607,American Masters,#3607,The Disappearance of Miss Scott
-YES,9.2,2025-02-23,22:30:00,Pov Shorts,#501,POV,#501,POV Shorts: Shut Up and Paint
-,9.2,2025-02-23,23:00:00,Nature,#4309,Nature,#4309,Museum Alive with David Attenborough
-,9.2,2025-02-24,00:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,The Ties that Bind
-,9.2,2025-02-24,01:00:00,American Masters,#3607,American Masters,#3607,The Disappearance of Miss Scott
-YES,9.2,2025-02-24,02:30:00,Pov Shorts,#501,POV,#501,POV Shorts: Shut Up and Paint
-YES,9.2,2025-02-24,03:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-,9.2,2025-02-24,04:00:00,Variety Studio: Actors On Actors,#2103,Variety Studio: Actors on Actors,#2103,
-,9.2,2025-02-24,04:30:00,Variety Studio: Actors On Actors,#2104,Variety Studio: Actors on Actors,#2104,
-,9.2,2025-02-24,05:00:00,Bbc News,#101,BBC News,#101,
-YES,9.2,2025-02-24,05:30:00,Whitney Reynolds Show,#505,The Whitney Reynolds Show,#505,"Peace, Love and Mental Health"
-YES,9.2,2025-02-24,06:00:00,Nhk Newsline,#25039,Newsline,#25039,
-,9.2,2025-02-24,06:15:00,Newsline In Depth,#25039,Newsline In Depth,,
-YES,9.2,2025-02-24,06:27:00,,,Newsline In Depth,,
-YES,9.2,2025-02-24,06:27:55,Trails to Oishii Tokyo Mini,#25039,,,
-YES,9.2,2025-02-24,06:37:55,Direct Talk,#25039,,,
-YES,9.2,2025-02-24,06:40:00,,,Direct Talk,#25039,
-,9.2,2025-02-24,07:00:00,Nature,#4309,Nature,#4309,Museum Alive with David Attenborough
-,9.2,2025-02-24,08:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,The Ties that Bind
-,9.2,2025-02-24,09:00:00,American Masters,#3607,American Masters,#3607,The Disappearance of Miss Scott
-YES,9.2,2025-02-24,10:30:00,Pov Shorts,#501,POV,#501,POV Shorts: Shut Up and Paint
-,9.2,2025-02-24,11:00:00,Sit and Be Fit,#1603,Sit and Be Fit,#1603,A Treat for Your Feet
-YES,9.2,2025-02-24,11:30:00,Classical Stretch: By Essentrics,#1308,Classical Stretch,#1308,Core Workout with Miranda Esmonde-White
-YES,9.2,2025-02-24,12:00:00,Sister Boniface Mysteries,#101,Sister Boniface Mysteries,#1,Unnatural Causes
-YES,9.2,2025-02-24,13:00:00,Father Brown,#192,Father Brown,#902,The Viper's Tongue
-YES,9.2,2025-02-24,14:00:00,Lucy Worsley's Royal Myths & Secrets,#105,Lucy Worsley's Royal Myths and Secrets,#105,Kings George III & IV and The Napoleonic War
-YES,9.2,2025-02-24,15:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,All God's Creatures
-,9.2,2025-02-24,16:00:00,Funny Woman,#204,Funny Woman,,
-,9.2,2025-02-24,17:00:00,France 24,#25039,France 24,#25039,
-YES,9.2,2025-02-24,17:30:00,,,Newsline,#15171,
-YES,9.2,2025-02-24,17:30:07,Nhk Newsline,#15171,,,
-,9.2,2025-02-24,18:00:00,Austin City Limits,#5001,Austin City Limits,#5001,Kacey Musgraves
-,9.2,2025-02-24,19:00:00,The Pbs News Hour,#14671,The PBS News Hour,#14671,
-YES,9.2,2025-02-24,20:00:00,Lucy Worsley's Royal Myths & Secrets,#101,Lucy Worsley's Royal Myths and Secrets,#101,Elizabeth I: The Warrior Queen
-YES,9.2,2025-02-24,21:00:00,Victoria & Albert: The Wedding,#102,Victoria & Albert,#2,Part 2
-YES,9.2,2025-02-24,22:00:00,Dw The Day,#14041,The Day,#14041,
-,9.2,2025-02-24,22:30:00,Bbc News,#101,BBC News,#101,
-YES,9.2,2025-02-24,23:00:00,"Religion, Racism, & Reconciliation",#0,"Religion, Racism & Reconciliation",,
-YES,9.2,2025-02-25,01:00:00,Will to Preach,#0,A Will To Preach,,
-,9.2,2025-02-25,01:30:00,Stories from the Stage,#808,Stories from the Stage,#808,Living Soul
-,9.2,2025-02-25,02:00:00,The Pbs News Hour,#14671,The PBS News Hour,#14671,
-,9.2,2025-02-25,03:00:00,Amanpour and Company,#7171,Amanpour and Company,#7171,
-YES,9.2,2025-02-25,04:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-,9.2,2025-02-25,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-25,05:30:00,Asia Insight,#1220,Asia Insight,#1220,
-,9.2,2025-02-25,06:00:00,Newsroom Tokyo,#25040,Newsroom Tokyo,#25040,
-,9.2,2025-02-25,06:27:00,Newsline In Depth,#25040,Newsline In Depth,,
-YES,9.2,2025-02-25,06:39:55,Direct Talk,#25040,,,
-YES,9.2,2025-02-25,06:40:00,,,Direct Talk,#25040,
-YES,9.2,2025-02-25,07:00:00,"Religion, Racism, & Reconciliation",#0,"Religion, Racism & Reconciliation",,
-YES,9.2,2025-02-25,09:00:00,Will to Preach,#0,A Will To Preach,,
-,9.2,2025-02-25,09:30:00,Stories from the Stage,#808,Stories from the Stage,#808,Living Soul
-YES,9.2,2025-02-25,10:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,,,
-,9.2,2025-02-25,11:00:00,Sit and Be Fit,#1604,Sit and Be Fit,#1604,Somatosensory and Lymphatic Systems
-YES,9.2,2025-02-25,11:30:00,Classical Stretch: By Essentrics,#1309,Classical Stretch,#1309,Tone Your Legs with Miranda Esmonde-White
-YES,9.2,2025-02-25,12:00:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
-,9.2,2025-02-25,12:30:00,Asia Insight,#1220,Asia Insight,#1220,The Reality Faced by Nepal's Workers Overseas
-,9.2,2025-02-25,13:00:00,"Facing North: Jefferson Street, Nashville",#0,"Facing North: Jefferson Street, Nashville",,
-YES,9.2,2025-02-25,14:00:00,Raised/Razed,#0,Raised / Razed,,
-,9.2,2025-02-25,15:00:00,Battlegrounds: The Lost Community of Fazendeville,#0,Battlegrounds: The Lost Community of Fazendeville,,
-,9.2,2025-02-25,16:00:00,First Peoples,#104,First Peoples,#104,Australia
-,9.2,2025-02-25,17:00:00,France 24,#25040,France 24,#25040,
-YES,9.2,2025-02-25,17:30:00,,,Newsline,#15172,
-YES,9.2,2025-02-25,17:30:07,Nhk Newsline,#15172,,,
-,9.2,2025-02-25,18:00:00,Woodsongs,#2602,WoodSongs,#2602,Vince Herman and Jessica Willis-Fisher
-,9.2,2025-02-25,19:00:00,The Pbs News Hour,#14672,The PBS News Hour,#14672,
-,9.2,2025-02-25,20:00:00,American Masters,#3311,American Masters,#3311,Marian Anderson: The Whole World in Her Hands
-YES,9.2,2025-02-25,22:00:00,Dw The Day,#14042,The Day,#14042,
-,9.2,2025-02-25,22:30:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-25,23:00:00,Nova,#5205,NOVA,#5205,Pompeii's Secret Underworld
-,9.2,2025-02-26,00:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,Plunderer: The Life and Times of a Nazi Art Thief (Part One)
-,9.2,2025-02-26,01:00:00,Journeys of Black Mathematicians,#102,Journeys of Black Mathematicians,#102,Creating Pathways
-,9.2,2025-02-26,02:00:00,The Pbs News Hour,#14672,The PBS News Hour,#14672,
-,9.2,2025-02-26,03:00:00,Amanpour and Company,#7172,Amanpour and Company,#7172,
-,9.2,2025-02-26,04:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,Coming to America
-,9.2,2025-02-26,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-26,05:30:00,Gzero World with Ian Bremmer,#734,GZero World with Ian Bremmer,#734,
-,9.2,2025-02-26,06:00:00,Newsroom Tokyo,#25041,Newsroom Tokyo,#25041,
-,9.2,2025-02-26,06:27:00,Newsline In Depth,#25041,Newsline In Depth,,
-YES,9.2,2025-02-26,06:39:55,Direct Talk,#25041,,,
-YES,9.2,2025-02-26,06:40:00,,,Direct Talk,#25041,
-,9.2,2025-02-26,07:00:00,Nova,#5205,NOVA,#5205,Pompeii's Secret Underworld
-,9.2,2025-02-26,08:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,Plunderer: The Life and Times of a Nazi Art Thief (Part One)
-,9.2,2025-02-26,09:00:00,Journeys of Black Mathematicians,#102,Journeys of Black Mathematicians,#102,Creating Pathways
-,9.2,2025-02-26,10:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,Coming to America
-,9.2,2025-02-26,11:00:00,Sit and Be Fit,#1605,Sit and Be Fit,#1605,Neglected Areas of Body
-YES,9.2,2025-02-26,11:30:00,Classical Stretch: By Essentrics,#1310,Classical Stretch,#1310,Hip Strengthing with Miranda Esmonde-White
-,9.2,2025-02-26,12:00:00,To The Contrary with Bonnie Erbe,#3349,To the Contrary with Bonnie Erbe,#3349,
-,9.2,2025-02-26,12:30:00,Energy Switch,#106,Energy Switch,#106,Investing In Our Energy Future
-YES,9.2,2025-02-26,13:00:00,"Barry Farm: Community, Land and Justice In Washing D.C.",,"Barry Farm: Community, Land and Justice in Washington DC",,
-,9.2,2025-02-26,14:00:00,American Experience,#3507,American Experience,#3507,The Busing Battleground
-,9.2,2025-02-26,16:00:00,Animal Babies: First Year On Earth,#103,Animal Babies: First Year on Earth,#103,New Frontiers
-,9.2,2025-02-26,17:00:00,France 24,#25041,France 24,#25041,
-YES,9.2,2025-02-26,17:30:00,,,Newsline,#15173,
-YES,9.2,2025-02-26,17:30:07,Nhk Newsline,#15173,,,
-,9.2,2025-02-26,18:00:00,Song of the Mountains,#1906,Song of the Mountains,#1906,Riders in the Sky
-,9.2,2025-02-26,19:00:00,The Pbs News Hour,#14673,The PBS News Hour,#14673,
-,9.2,2025-02-26,20:00:00,American Masters,#3607,American Masters,#3607,The Disappearance of Miss Scott
-,9.2,2025-02-26,21:30:00,History with David Rubenstein,#602,History with David Rubenstein,#602,Lindsay Chervinsky
-YES,9.2,2025-02-26,22:00:00,Dw The Day,#14043,The Day,#14043,
-,9.2,2025-02-26,22:30:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-26,23:00:00,Pov,#3615,POV,#3615,Brief Tender Light
-,9.2,2025-02-27,00:30:00,Independent Lens,#2613,Independent Lens,#2613,Bike Vessel
-,9.2,2025-02-27,02:00:00,The Pbs News Hour,#14673,The PBS News Hour,#14673,
-,9.2,2025-02-27,03:00:00,Amanpour and Company,#7173,Amanpour and Company,#7173,
-,9.2,2025-02-27,04:00:00,Variety Studio: Actors On Actors,#2103,Variety Studio: Actors on Actors,#2103,
-,9.2,2025-02-27,04:30:00,Variety Studio: Actors On Actors,#2104,Variety Studio: Actors on Actors,#2104,
-,9.2,2025-02-27,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-27,05:30:00,Story in the Public Square,#1409,Story in the Public Square,#1409,Pete Hammond
-,9.2,2025-02-27,06:00:00,Newsroom Tokyo,#25042,Newsroom Tokyo,#25042,
-,9.2,2025-02-27,06:27:00,Newsline In Depth,#25042,Newsline In Depth,,
-YES,9.2,2025-02-27,06:39:55,Direct Talk,#25042,,,
-YES,9.2,2025-02-27,06:40:00,,,Direct Talk,#25042,
-,9.2,2025-02-27,07:00:00,Pov,#3615,POV,#3615,Brief Tender Light
-,9.2,2025-02-27,08:30:00,Independent Lens,#2613,Independent Lens,#2613,Bike Vessel
-,9.2,2025-02-27,10:00:00,Variety Studio: Actors On Actors,#2103,Variety Studio: Actors on Actors,#2103,
-,9.2,2025-02-27,10:30:00,Variety Studio: Actors On Actors,#2104,Variety Studio: Actors on Actors,#2104,
-,9.2,2025-02-27,11:00:00,Sit and Be Fit,#1606,Sit and Be Fit,#1606,Diabetes and Peripheral Neuropathy
-YES,9.2,2025-02-27,11:30:00,Classical Stretch: By Essentrics,#1311,Classical Stretch,#1311,Improve Your Balance with Miranda Esmonde-White
-,9.2,2025-02-27,12:00:00,Story in the Public Square,#1409,Story in the Public Square,#1409,Pete Hammond
-,9.2,2025-02-27,12:30:00,Second Opinion with Joan Lunden,#1807,Second Opinion with Joan Lunden,#1807,Stress
-,9.2,2025-02-27,13:00:00,Bridging Divides: Sharing Heartbeats,#0,Bridging Divides: Sharing Heartbeats,,
-,9.2,2025-02-27,14:00:00,American Experience,#3508,American Experience,#3508,The Harvest: Integrating Mississippi's Schools
-,9.2,2025-02-27,16:00:00,Lucy Worsley's Holmes Vs. Doyle,#102,Lucy Worsley's Holmes vs. Doyle,#102,Fact and Fiction
-,9.2,2025-02-27,17:00:00,France 24,#25042,France 24,#25042,
-YES,9.2,2025-02-27,17:30:00,,,Newsline,#15174,
-YES,9.2,2025-02-27,17:30:07,Nhk Newsline,#15174,,,
-,9.2,2025-02-27,18:00:00,The Kate,#501,The Kate,#501,Marty Stuart & his Fabulous Superlatives
-,9.2,2025-02-27,19:00:00,The Pbs News Hour,#14674,The PBS News Hour,#14674,
-YES,9.2,2025-02-27,20:00:00,Great Polar Bear Feast,#0,The Great Polar Bear Feast,,
-,9.2,2025-02-27,21:00:00,"Spy in the Ocean, A Nature Miniseries",#104,"Spy in the Ocean, A Nature Miniseries",#104,Deep Trouble
-YES,9.2,2025-02-27,22:00:00,Dw The Day,#14044,The Day,#14044,
-,9.2,2025-02-27,22:30:00,Bbc News,#101,BBC News,#101,
-YES,9.2,2025-02-27,23:00:00,Eyes on the Prize,#201,Eyes on the Prize: World Channel Special,#201,The Time Has Come: 1964-1966
-YES,9.2,2025-02-28,00:00:00,Eyes on the Prize,#202,Eyes on the Prize: World Channel Special,#202,Two Societies: 1965-1968
-,9.2,2025-02-28,01:00:00,Talking Black In America - Social Justice,#0,Talking Black In America - Social Justice,,
-,9.2,2025-02-28,02:00:00,The Pbs News Hour,#14674,The PBS News Hour,#14674,
-,9.2,2025-02-28,03:00:00,Amanpour and Company,#7174,Amanpour and Company,#7174,
-YES,9.2,2025-02-28,04:00:00,Will to Preach,#0,A Will To Preach,,
-,9.2,2025-02-28,04:30:00,Stories from the Stage,#808,Stories from the Stage,#808,Living Soul
-,9.2,2025-02-28,05:00:00,Bbc News,#101,BBC News,#101,
-,9.2,2025-02-28,05:30:00,Closer to Truth's Philosophy of Biology,#101,Closer to Truth's Philosophy of Biology,,
-,9.2,2025-02-28,06:00:00,Newsroom Tokyo,#25043,Newsroom Tokyo,#25043,
-,9.2,2025-02-28,06:27:00,Newsline In Depth,#25043,Newsline In Depth,,
-YES,9.2,2025-02-28,06:39:55,Direct Talk,#25043,,,
-YES,9.2,2025-02-28,06:40:00,,,Direct Talk,#25043,
-YES,9.2,2025-02-28,07:00:00,Eyes on the Prize,#201,Eyes on the Prize: World Channel Special,#201,The Time Has Come: 1964-1966
-YES,9.2,2025-02-28,08:00:00,Eyes on the Prize,#202,Eyes on the Prize: World Channel Special,#202,Two Societies: 1965-1968
-,9.2,2025-02-28,09:00:00,Talking Black In America - Social Justice,#0,Talking Black In America - Social Justice,,
-YES,9.2,2025-02-28,10:00:00,Will to Preach,#0,A Will To Preach,,
-,9.2,2025-02-28,10:30:00,Stories from the Stage,#808,Stories from the Stage,#808,Living Soul
-,9.2,2025-02-28,11:00:00,Sit and Be Fit,#1607,Sit and Be Fit,#1607,Full Body Workout
-YES,9.2,2025-02-28,11:30:00,Classical Stretch: By Essentrics,#1312,Classical Stretch,#1312,Core Strengthening to Improve Posture with Miranda Esmonde-White
-YES,9.2,2025-02-28,12:00:00,Sister Boniface Mysteries,#102,Sister Boniface Mysteries,#2,"Lights, Camera, Murder!"
-YES,9.2,2025-02-28,13:00:00,Father Brown,#193,Father Brown,#903,The Requiem for the Dead
-YES,9.2,2025-02-28,14:00:00,Little Women On Masterpiece,#4817,Little Women,#103,
-YES,9.2,2025-02-28,15:00:00,Maryland On Masterpiece,#5425,MaryLand,#103,
-,9.2,2025-02-28,16:00:00,Austin City Limits,#5001,Austin City Limits,#5001,Kacey Musgraves
-,9.2,2025-02-28,17:00:00,France 24,#25043,France 24,#25043,
-YES,9.2,2025-02-28,17:30:00,,,Newsline,#15175,
-YES,9.2,2025-02-28,17:30:07,Nhk Newsline,#15175,,,
-,9.2,2025-02-28,18:00:00,Song of the Mountains,#1905,Song of the Mountains,#1905,Dwight Hawkins & The Piedmont Highballers/Songs from the Road Band
-,9.2,2025-02-28,19:00:00,The Pbs News Hour,#14675,The PBS News Hour,#14675,
-,9.2,2025-02-28,20:00:00,American Justice On Trial: People V. Newton,#0,American Justice On Trial: People V. Newton,,
-,9.2,2025-02-28,21:00:00,Living In My Skin,#101,Living in My Skin,#101,
-,9.2,2025-02-28,21:30:00,Living In My Skin,#102,Living in My Skin,#102,
-YES,9.2,2025-02-28,22:00:00,Dw The Day,#14045,The Day,#14045,
-,9.2,2025-02-28,22:30:00,Bbc News,#101,BBC News,#101,
-YES,9.2,2025-02-28,23:00:00,Niagara Movement: The Early Battle for Civil Rights,#0,Niagara Movement - The Early Battle for Civil Rights,,
+MISMATCH,Channel,Date,Start Time,Program Name - protrack,Episode Number - protrack,Program Name - titan,Episode Number - titan,Description - titan
+,9.1,2025-02-18,06:00:00,Cyberchase,#1505,Cyberchase,#1505,
+,9.1,2025-02-18,06:30:00,Wild Kratts,#213,Wild Kratts,#213,
+,9.1,2025-02-18,07:00:00,Lyla in the Loop,#123,Lyla in the Loop,#123,
+,9.1,2025-02-18,07:30:00,Carl The Collector,#102,Carl the Collector,#102,
+,9.1,2025-02-18,08:00:00,Daniel Tiger's Neighborhood,#104,Daniel Tiger's Neighborhood,#104,
+,9.1,2025-02-18,08:30:00,Rosie's Rules,#130,Rosie's Rules,#130,
+,9.1,2025-02-18,09:00:00,Sesame Street,#5401,Sesame Street,#5401,
+,9.1,2025-02-18,09:30:00,Work It Out Wombats!,#111,Work It Out Wombats!,#111,
+,9.1,2025-02-18,10:00:00,Donkey Hodie,#135,Donkey Hodie,#135,
+,9.1,2025-02-18,10:30:00,Pinkalicious & Peterrific,#702,Pinkalicious & Peterrific,#702,
+,9.1,2025-02-18,11:00:00,Elinor Wonders Why,#109,Elinor Wonders Why,#109,
+,9.1,2025-02-18,11:30:00,Alma's Way,#127,Alma's Way,#127,
+,9.1,2025-02-18,12:00:00,Molly of Denali,#201,Molly of Denali,#201,
+YES,9.1,2025-02-18,12:30:00,Xavier Riddle and the Secret Museum,#223,Xavier Riddle and The Secret Museum,#114A,
+,9.1,2025-02-18,13:00:00,Sit and Be Fit,#1806,Sit and Be Fit,#1806,
+YES,9.1,2025-02-18,13:30:00,Classical Stretch: By Essentrics,#1109,Classical Stretch,#1109,
+,9.1,2025-02-18,14:00:00,Antiques Roadshow,#2907,Antiques Roadshow,#2907,
+,9.1,2025-02-18,15:00:00,Antiques Roadshow,#2710,Antiques Roadshow,#2710,
+YES,9.1,2025-02-18,16:00:00,All Creatures Great and Small On Masterpiece,#5512,All Creatures Great and Small,#5512,
+,9.1,2025-02-18,17:00:00,Bbc News America,#1027,BBC News America,#1027,
+,9.1,2025-02-18,17:30:00,Bbc News The Context,#1027,BBC News The Context,#1027,
+,9.1,2025-02-18,18:00:00,The Pbs News Hour,#14667,The PBS News Hour,#14667,
+,9.1,2025-02-18,19:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,
+,9.1,2025-02-18,20:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,
+,9.1,2025-02-18,21:00:00,Frontline,#4314,Frontline,#4314,
+,9.1,2025-02-18,22:00:00,Making Black America: Through The Grapevine,#104,Making Black America: Through the Grapevine,#104,
+,9.1,2025-02-18,23:00:00,Amanpour and Company,#7167,Amanpour and Company,#7167,
+,9.1,2025-02-19,00:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,
+,9.1,2025-02-19,01:00:00,Frontline,#4314,Frontline,#4314,
+,9.1,2025-02-19,02:00:00,Independent Lens,#2612,Independent Lens,#2612,
+,9.1,2025-02-19,03:30:00,In Julia's Kitchen with Master Chefs,#135,In Julia's Kitchen with Master Chefs,#135,
+,9.1,2025-02-19,04:00:00,Antiques Roadshow,#2710,Antiques Roadshow,#2710,
+,9.1,2025-02-19,05:00:00,Happy Yoga with Sarah Starr,#909,Happy Yoga with Sarah Starr,#909,
+YES,9.1,2025-02-19,05:30:00,Classical Stretch: By Essentrics,#1110,Classical Stretch,#1110,
+,9.1,2025-02-19,06:00:00,Cyberchase,#1304,Cyberchase,#1304,
+,9.1,2025-02-19,06:30:00,Wild Kratts,#305,Wild Kratts,#305,
+,9.1,2025-02-19,07:00:00,Lyla in the Loop,#112,Lyla in the Loop,#112,
+,9.1,2025-02-19,07:30:00,Carl The Collector,#107,Carl the Collector,#107,
+,9.1,2025-02-19,08:00:00,Daniel Tiger's Neighborhood,#110,Daniel Tiger's Neighborhood,#110,
+,9.1,2025-02-19,08:30:00,Rosie's Rules,#139,Rosie's Rules,#139,
+,9.1,2025-02-19,09:00:00,Sesame Street,#5433,Sesame Street,#5433,
+,9.1,2025-02-19,09:30:00,Work It Out Wombats!,#109,Work It Out Wombats!,#109,
+,9.1,2025-02-19,10:00:00,Donkey Hodie,#126,Donkey Hodie,#126,
+,9.1,2025-02-19,10:30:00,Pinkalicious & Peterrific,#309,Pinkalicious & Peterrific,#309,
+,9.1,2025-02-19,11:00:00,Elinor Wonders Why,#137,Elinor Wonders Why,#137,
+,9.1,2025-02-19,11:30:00,Alma's Way,#133,Alma's Way,#133,
+,9.1,2025-02-19,12:00:00,Molly of Denali,#202,Molly of Denali,#202,
+,9.1,2025-02-19,12:30:00,Xavier Riddle and the Secret Museum,#131,Xavier Riddle and The Secret Museum,#131,
+,9.1,2025-02-19,13:00:00,Sit and Be Fit,#1807,Sit and Be Fit,#1807,
+,9.1,2025-02-19,13:30:00,Classical Stretch: By Essentrics,#1110,Classical Stretch: By Essentrics,,
+,9.1,2025-02-19,14:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,
+,9.1,2025-02-19,15:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,
+YES,9.1,2025-02-19,16:30:00,Swing Lo',#0,Swing 'Lo,,
+,9.1,2025-02-19,17:00:00,Bbc News America,#1028,BBC News America,#1028,
+,9.1,2025-02-19,17:30:00,Bbc News The Context,#1028,BBC News The Context,#1028,
+,9.1,2025-02-19,18:00:00,The Pbs News Hour,#14668,The PBS News Hour,#14668,
+,9.1,2025-02-19,19:00:00,Nature,#4309,Nature,#4309,
+,9.1,2025-02-19,20:00:00,Nova,#5205,NOVA,#5205,
+,9.1,2025-02-19,21:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,
+,9.1,2025-02-19,22:00:00,Nazi Mega Weapons,#303,Nazi Mega Weapons,#303,
+,9.1,2025-02-19,23:00:00,Amanpour and Company,#7168,Amanpour and Company,#7168,
+,9.1,2025-02-20,00:00:00,Nova,#5205,NOVA,#5205,
+,9.1,2025-02-20,01:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,
+,9.1,2025-02-20,02:00:00,Life at the Waterhole,#101,Life at the Waterhole,#101,
+,9.1,2025-02-20,03:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,
+,9.1,2025-02-20,04:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,
+,9.1,2025-02-20,05:00:00,Happy Yoga with Sarah Starr,#910,Happy Yoga with Sarah Starr,#910,
+YES,9.1,2025-02-20,05:30:00,Classical Stretch: By Essentrics,#1111,Classical Stretch,#1111,
+,9.1,2025-02-20,06:00:00,Cyberchase,#1209,Cyberchase,#1209,
+,9.1,2025-02-20,06:30:00,Wild Kratts,#313,Wild Kratts,#313,
+,9.1,2025-02-20,07:00:00,Lyla in the Loop,#116,Lyla in the Loop,#116,
+,9.1,2025-02-20,07:30:00,Carl The Collector,#104,Carl the Collector,#104,
+,9.1,2025-02-20,08:00:00,Daniel Tiger's Neighborhood,#137,Daniel Tiger's Neighborhood,#137,
+,9.1,2025-02-20,08:30:00,Rosie's Rules,#108,Rosie's Rules,#108,
+,9.1,2025-02-20,09:00:00,Sesame Street,#5401,Sesame Street,#5401,
+YES,9.1,2025-02-20,09:30:00,Work It Out Wombats!,#127,Work It Out Wombats!,#129,
+,9.1,2025-02-20,10:00:00,Donkey Hodie,#109,Donkey Hodie,#109,
+,9.1,2025-02-20,10:30:00,Pinkalicious & Peterrific,#116,Pinkalicious & Peterrific,#116,
+,9.1,2025-02-20,11:00:00,Elinor Wonders Why,#113,Elinor Wonders Why,#113,
+,9.1,2025-02-20,11:30:00,Alma's Way,#112,Alma's Way,#112,
+,9.1,2025-02-20,12:00:00,Molly of Denali,#102,Molly of Denali,#102,
+,9.1,2025-02-20,12:30:00,Xavier Riddle and the Secret Museum,#221,Xavier Riddle and The Secret Museum,#221,
+,9.1,2025-02-20,13:00:00,Sit and Be Fit,#1808,Sit and Be Fit,#1808,
+,9.1,2025-02-20,13:30:00,Nature,#4309,Nature,#4309,
+,9.1,2025-02-20,15:00:00,"Spy in the Ocean, A Nature Miniseries",#103,"Spy in the Ocean, A Nature Miniseries",#103,
+,9.1,2025-02-20,16:00:00,Animal Babies: First Year On Earth,#102,Animal Babies: First Year on Earth,#102,
+,9.1,2025-02-20,17:00:00,Bbc News America,#1029,BBC News America,#1029,
+,9.1,2025-02-20,17:30:00,Bbc News The Context,#1029,BBC News The Context,#1029,
+,9.1,2025-02-20,18:00:00,The Pbs News Hour,#14669,The PBS News Hour,#14669,
+,9.1,2025-02-20,19:00:00,On The Record,#807,On the Record,#807,
+YES,9.1,2025-02-20,19:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+YES,9.1,2025-02-20,20:00:00,Sister Boniface Mysteries,#101,Sister Boniface Mysteries,#1,
+YES,9.1,2025-02-20,21:00:00,Father Brown,#192,Father Brown,#902,
+,9.1,2025-02-20,22:00:00,Velvet,#108,Velvet,#108,
+,9.1,2025-02-20,23:30:00,Amanpour and Company,#7169,Amanpour and Company,#7169,
+,9.1,2025-02-21,00:30:00,Firing Line with Margaret Hoover,#833,Firing Line with Margaret Hoover,#833,
+,9.1,2025-02-21,01:00:00,Life at the Waterhole,#103,Life at the Waterhole,#103,
+,9.1,2025-02-21,02:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,
+,9.1,2025-02-21,03:00:00,Nature,#4309,Nature,#4309,
+,9.1,2025-02-21,04:00:00,Nova,#5205,NOVA,#5205,
+,9.1,2025-02-21,05:00:00,Happy Yoga with Sarah Starr,#1001,Happy Yoga with Sarah Starr,#1001,
+YES,9.1,2025-02-21,05:30:00,Classical Stretch: By Essentrics,#1112,Classical Stretch,#1112,
+,9.1,2025-02-21,06:00:00,Cyberchase,#604,Cyberchase,#604,
+,9.1,2025-02-21,06:30:00,Wild Kratts,#311,Wild Kratts,#311,
+,9.1,2025-02-21,07:00:00,Lyla in the Loop,#124,Lyla in the Loop,#124,
+,9.1,2025-02-21,07:30:00,Carl The Collector,#105,Carl the Collector,#105,
+,9.1,2025-02-21,08:00:00,Daniel Tiger's Neighborhood,#113,Daniel Tiger's Neighborhood,#113,
+,9.1,2025-02-21,08:30:00,Rosie's Rules,#134,Rosie's Rules,#134,
+YES,9.1,2025-02-21,09:00:00,Sesame Street,#5417,Sesame Street,#17,
+YES,9.1,2025-02-21,09:30:00,Work It Out Wombats!,#121,Work It Out Wombats!,#118,
+,9.1,2025-02-21,10:00:00,Donkey Hodie,#130,Donkey Hodie,#130,
+,9.1,2025-02-21,10:30:00,Pinkalicious & Peterrific,#701,Pinkalicious & Peterrific,#701,
+,9.1,2025-02-21,11:00:00,Elinor Wonders Why,#104,Elinor Wonders Why,#104,
+,9.1,2025-02-21,11:30:00,Alma's Way,#137,Alma's Way,#137,
+,9.1,2025-02-21,12:00:00,Molly of Denali,#302,Molly of Denali,#302,
+,9.1,2025-02-21,12:30:00,Xavier Riddle and the Secret Museum,#111,Xavier Riddle and The Secret Museum,#111,
+,9.1,2025-02-21,13:00:00,Sit and Be Fit,#1809,Sit and Be Fit,#1809,
+YES,9.1,2025-02-21,13:30:00,Classical Stretch: By Essentrics,#1112,Classical Stretch,#1112,
+,9.1,2025-02-21,14:00:00,Nova,#5205,NOVA,#5205,
+,9.1,2025-02-21,15:00:00,Nova,#4606,NOVA,#4606,
+,9.1,2025-02-21,16:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,
+,9.1,2025-02-21,17:00:00,Bbc News America,#1030,BBC News America,#1030,
+,9.1,2025-02-21,17:30:00,Bbc News The Context,#1030,BBC News The Context,#1030,
+,9.1,2025-02-21,18:00:00,The Pbs News Hour,#14670,The PBS News Hour,#14670,
+,9.1,2025-02-21,19:00:00,Washington Week with the Atlantic,#6434,Washington Week with The Atlantic,#6434,
+,9.1,2025-02-21,19:30:00,Firing Line with Margaret Hoover,#834,Firing Line with Margaret Hoover,#834,
+,9.1,2025-02-21,20:00:00,American Masters,#3607,American Masters,#3607,
+,9.1,2025-02-21,21:30:00,History with David Rubenstein,#602,History with David Rubenstein,#602,
+,9.1,2025-02-21,22:00:00,Acl Presents: Willie Nelson & Family,#0,Acl Presents: Willie Nelson & Family,,
+,9.1,2025-02-21,23:00:00,Amanpour and Company,#7170,Amanpour and Company,#7170,
+,9.1,2025-02-22,00:00:00,American Masters,#3607,American Masters,#3607,
+,9.1,2025-02-22,01:30:00,History with David Rubenstein,#602,History with David Rubenstein,#602,
+,9.1,2025-02-22,02:00:00,Craft In America,#1201,Craft in America,#1201,
+,9.1,2025-02-22,03:00:00,Craft In America,#1202,Craft in America,#1202,
+,9.1,2025-02-22,04:00:00,On The Record,#807,On the Record,#807,
+YES,9.1,2025-02-22,04:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+,9.1,2025-02-22,05:00:00,Happy Yoga with Sarah Starr,#1002,Happy Yoga with Sarah Starr,#1002,
+YES,9.1,2025-02-22,05:30:00,Classical Stretch: By Essentrics,#1519,Classical Stretch,#1519,
+,9.1,2025-02-22,06:00:00,Wild Kratts,#313,Wild Kratts,#313,
+,9.1,2025-02-22,06:30:00,Alma's Way,#112,Alma's Way,#112,
+,9.1,2025-02-22,07:00:00,Lyla in the Loop,#123,Lyla in the Loop,#123,
+,9.1,2025-02-22,07:30:00,Carl The Collector,#101,Carl the Collector,#101,
+,9.1,2025-02-22,08:00:00,Fons & Porter's Love of Quilting,#4111,Fons & Porter's Love of Quilting,#4111,
+,9.1,2025-02-22,08:30:00,Fit 2 Stitch,#1308,Fit 2 Stitch,#1308,
+,9.1,2025-02-22,09:00:00,Samantha Brown's Places to Love,#808,Samantha Brown's Places to Love,#808,
+YES,9.1,2025-02-22,09:30:00,Daytripper,#1508,The Daytripper,#1508,
+YES,9.1,2025-02-22,10:00:00,Outside: Beyond The Lens,#106,Outside Beyond the Lens,#106,
+,9.1,2025-02-22,10:30:00,Rick Steves' Europe,#1203,Rick Steves' Europe,#1203,
+,9.1,2025-02-22,11:00:00,Christopher Kimball's Milk Street Television,#822,Christopher Kimball's Milk Street Television,#822,
+,9.1,2025-02-22,11:30:00,Milk Street's My Family Recipe,#107,Milk Street's My Family Recipe,,
+,9.1,2025-02-22,12:00:00,Christina Cooks: Back to the Cutting Board,#209,Christina Cooks: Back to the Cutting Board,#209,
+YES,9.1,2025-02-22,12:30:00,Key Ingredient with Sheri Castle,#206,The Key Ingredient with Sheri Castle,#206,
+,9.1,2025-02-22,13:00:00,This Old House,#4616,This Old House,#4616,
+,9.1,2025-02-22,13:30:00,Ask This Old House,#2316,Ask This Old House,#2316,
+YES,9.1,2025-02-22,14:00:00,America's Test Kitchen,#1806,America's Test Kitchen from Cook's Illustrated,#1806,
+YES,9.1,2025-02-22,14:30:00,Cook's Country,#1609,Cook's Country from America's Test Kitchen,#1609,
+,9.1,2025-02-22,15:00:00,Lidia's Kitchen,#1219,Lidia's Kitchen,#1219,
+,9.1,2025-02-22,15:30:00,Pati's Mexican Table,#504,Pati's Mexican Table,#504,
+,9.1,2025-02-22,16:00:00,Sara's Weeknight Meals,#1306,Sara's Weeknight Meals,#1306,
+,9.1,2025-02-22,16:30:00,Samantha Brown's Places to Love,#808,Samantha Brown's Places to Love,#808,
+,9.1,2025-02-22,17:00:00,Pbs Newshour Weekend,#2267,PBS NewsHour Weekend,#2267,
+,9.1,2025-02-22,17:30:00,On The Record,#807,On the Record,#807,
+YES,9.1,2025-02-22,18:00:00,Father Brown,#192,Father Brown,#902,
+YES,9.1,2025-02-22,19:00:00,Keeping Up Appearances - The Memoirs of Hyacinth Bucket,,Keeping Up Appearances,#511,
+YES,9.1,2025-02-22,19:30:00,Keeping Up Appearances - The Memoirs of Hyacinth Bucket,,Keeping Up Appearances,#101,
+,9.1,2025-02-22,20:00:00,Midsomer Murders,#201,Midsomer Murders,#201,
+YES,9.1,2025-02-22,20:45:00,,,Midsomer Murders,#202,
+YES,9.1,2025-02-22,20:50:15,Midsomer Murders,#202,,,
+YES,9.1,2025-02-22,22:00:00,Death In Paradise,#154,Death in Paradise,#706,
+,9.1,2025-02-22,23:00:00,Austin City Limits,#5001,Austin City Limits,#5001,
+,9.1,2025-02-23,00:00:00,Nature,#4309,Nature,#4309,
+,9.1,2025-02-23,01:00:00,Nova,#5205,NOVA,#5205,
+,9.1,2025-02-23,02:00:00,Secrets of the Dead,#2205,Secrets of the Dead,#2205,
+,9.1,2025-02-23,03:00:00,On The Record,#807,On the Record,#807,
+YES,9.1,2025-02-23,03:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+,9.1,2025-02-23,04:00:00,Washington Week with the Atlantic,#6434,Washington Week with The Atlantic,#6434,
+,9.1,2025-02-23,04:30:00,Firing Line with Margaret Hoover,#834,Firing Line with Margaret Hoover,#834,
+,9.1,2025-02-23,05:00:00,Happy Yoga with Sarah Starr,#1003,Happy Yoga with Sarah Starr,#1003,
+YES,9.1,2025-02-23,05:30:00,Classical Stretch: By Essentrics,#1113,Classical Stretch,#1113,
+,9.1,2025-02-23,06:00:00,Wild Kratts,#311,Wild Kratts,#311,
+,9.1,2025-02-23,06:30:00,Alma's Way,#137,Alma's Way,#137,
+YES,9.1,2025-02-23,07:00:00,Lyla in the Loop,#116,Lyla in the Loop,#112,
+,9.1,2025-02-23,07:30:00,Carl The Collector,#107,Carl the Collector,#107,
+,9.1,2025-02-23,08:00:00,Daniel Tiger's Neighborhood,#113,Daniel Tiger's Neighborhood,#113,
+,9.1,2025-02-23,08:30:00,Rosie's Rules,#134,Rosie's Rules,#134,
+YES,9.1,2025-02-23,09:00:00,Sesame Street,#5403,Sesame Street,#17,
+YES,9.1,2025-02-23,09:30:00,Work It Out Wombats!,#121,Work It Out Wombats!,#118,
+,9.1,2025-02-23,10:00:00,Central Texas Gardener,#2905,Central Texas Gardener,#2905,
+YES,9.1,2025-02-23,10:30:00,Texas Parks and Wildlife,#3319,Texas Parks & Wildlife,#3319,
+,9.1,2025-02-23,11:00:00,Overheard with Evan Smith,#1005,Overheard with Evan Smith,#1005,
+,9.1,2025-02-23,11:30:00,Firing Line with Margaret Hoover,#834,Firing Line with Margaret Hoover,#834,
+,9.1,2025-02-23,12:00:00,Washington Week with the Atlantic,#6434,Washington Week with The Atlantic,#6434,
+YES,9.1,2025-02-23,12:30:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
+,9.1,2025-02-23,13:00:00,On The Record,#807,On the Record,#807,
+YES,9.1,2025-02-23,13:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+,9.1,2025-02-23,14:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,
+,9.1,2025-02-23,15:00:00,American Justice On Trial: People V. Newton,#0,American Justice On Trial: People V. Newton,,
+,9.1,2025-02-23,16:00:00,Hope in the Struggle: The Josie Johnson Story,#0,Hope in the Struggle: The Josie Johnson Story,,
+,9.1,2025-02-23,17:00:00,Pbs Newshour Weekend,#2268,PBS NewsHour Weekend,#2268,
+YES,9.1,2025-02-23,17:30:00,Dw Focus On Europe,#4309,Focus on Europe,#4309,
+,9.1,2025-02-23,18:00:00,Great Performances,#5202,Great Performances,#5202,
+YES,9.1,2025-02-23,20:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,
+,9.1,2025-02-23,21:00:00,Funny Woman,#204,Funny Woman,,
+,9.1,2025-02-23,22:00:00,The Paris Murders,#203,The Paris Murders,#203,
+YES,9.1,2025-02-23,23:00:00,Death In Paradise,#154,Death in Paradise,#706,
+YES,9.1,2025-02-24,00:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,
+,9.1,2025-02-24,01:00:00,Funny Woman,#204,Funny Woman,,
+,9.1,2025-02-24,02:00:00,The Paris Murders,#203,The Paris Murders,#203,
+,9.1,2025-02-24,03:00:00,Great Migrations: A People on the Move,#104,Great Migrations: A People on the Move,#104,
+,9.1,2025-02-24,04:00:00,Finding Your Roots,#1107,Finding Your Roots,#1107,
+,9.1,2025-02-24,05:00:00,Happy Yoga with Sarah Starr,#1004,Happy Yoga with Sarah Starr,#1004,
+YES,9.1,2025-02-24,05:30:00,Classical Stretch: By Essentrics,#1114,Classical Stretch,#1114,
+,9.1,2025-02-24,06:00:00,Cyberchase,#804,Cyberchase,#804,
+,9.1,2025-02-24,06:30:00,Wild Kratts,#301,Wild Kratts,#301,
+,9.1,2025-02-24,07:00:00,Lyla in the Loop,#125,Lyla in the Loop,#125,
+,9.1,2025-02-24,07:30:00,Carl The Collector,#106,Carl the Collector,#106,
+,9.1,2025-02-24,08:00:00,Daniel Tiger's Neighborhood,#107,Daniel Tiger's Neighborhood,#107,
+,9.1,2025-02-24,08:30:00,Rosie's Rules,#119,Rosie's Rules,#119,
+,9.1,2025-02-24,09:00:00,Sesame Street,#5412,Sesame Street,#5412,
+YES,9.1,2025-02-24,09:30:00,Work It Out Wombats!,#130,Work It Out Wombats!,#30,
+,9.1,2025-02-24,10:00:00,Donkey Hodie,#211,Donkey Hodie,#211,
+,9.1,2025-02-24,10:30:00,Pinkalicious & Peterrific,#702,Pinkalicious & Peterrific,#702,
+,9.1,2025-02-24,11:00:00,Elinor Wonders Why,#114,Elinor Wonders Why,#114,
+,9.1,2025-02-24,11:30:00,Alma's Way,#204,Alma's Way,#204,
+,9.1,2025-02-24,12:00:00,Molly of Denali,#410,Molly of Denali,#410,
+YES,9.1,2025-02-24,12:30:00,Xavier Riddle and the Secret Museum,#223,Xavier Riddle and The Secret Museum,#114,
+,9.1,2025-02-24,13:00:00,Sit and Be Fit,#1810,Sit and Be Fit,#1810,
+YES,9.1,2025-02-24,13:30:00,Classical Stretch: By Essentrics,#1114,Classical Stretch,#1114,
+YES,9.1,2025-02-24,14:00:00,Father Brown,#192,Father Brown,#902,
+,9.1,2025-02-24,15:00:00,Midsomer Murders,#201,Midsomer Murders,,
+YES,9.1,2025-02-24,15:50:00,,,Midsomer Murders,,
+YES,9.1,2025-02-24,15:50:15,Midsomer Murders,#202,,,
+,9.1,2025-02-24,17:00:00,Bbc News America,#1031,BBC News America,#1031,
+,9.1,2025-02-24,17:30:00,Bbc News The Context,#1031,BBC News The Context,#1031,
+,9.1,2025-02-24,18:00:00,The Pbs News Hour,#14671,The PBS News Hour,#14671,
+,9.1,2025-02-24,19:00:00,Antiques Roadshow,#2908,Antiques Roadshow,#2908,
+,9.1,2025-02-24,20:00:00,Antiques Roadshow,#2711,Antiques Roadshow,#2711,
+,9.1,2025-02-24,21:00:00,Independent Lens,#2613,Independent Lens,#2613,
+YES,9.1,2025-02-24,22:30:00,Pov Shorts,#703,POV Shorts,#702,
+,9.1,2025-02-24,23:00:00,Amanpour and Company,#7171,Amanpour and Company,,
+YES,9.1,2025-02-24,23:32:00,,,My Music with Rhiannon Giddens,,
+,9.1,2025-02-25,00:00:00,Firing Line with Margaret Hoover,#834,Firing Line with Margaret Hoover,#834,
+,9.1,2025-02-25,00:30:00,Antiques Roadshow,#2711,Antiques Roadshow,#2711,
+,9.1,2025-02-25,01:30:00,Independent Lens,#2613,Independent Lens,#2613,
+YES,9.1,2025-02-25,03:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,
+,9.1,2025-02-25,04:00:00,Funny Woman,#204,Funny Woman,,
+,9.1,2025-02-25,05:00:00,Happy Yoga with Sarah Starr,#1005,Happy Yoga with Sarah Starr,#1005,
+YES,9.1,2025-02-25,05:30:00,Classical Stretch: By Essentrics,#1115,Classical Stretch,#1115,

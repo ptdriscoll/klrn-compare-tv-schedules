@@ -110,7 +110,7 @@ if __name__ == '__main__':
     # compare command
     compare = subparsers.add_parser('compare', help='Compare two parsed TV schedules')
     compare.add_argument('sources', nargs=2, choices=choices, help='Sources to compare')
-    compare.add_argument('channel', nargs='?', default='9.1', help='Optional channel to filter for (default: 9.1)')
+    compare.add_argument('--channel', default='9.1', help='Optional channel to filter for (default: 9.1)')
 
     # get command
     get_parser = subparsers.add_parser('get', help='Get raw TV schedule data from a source')

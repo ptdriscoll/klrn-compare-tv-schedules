@@ -1,126 +1,51 @@
-MISMATCH,Channel,Date,Start Time,Program Name - Reference,Episode Number - Reference,Program Name - Comparison,Episode Number - Comparison,Description
-YES,9.2,2025-02-18,06:39:55,Direct Talk,#25035,,,
-YES,9.2,2025-02-18,06:40:00,,,Direct Talk,#25035,
-YES,9.2,2025-02-18,11:30:00,Classical Stretch: By Essentrics,#1304,Classical Stretch,#1304,Boost Your Brain with Miranda Esmonde-White
-YES,9.2,2025-02-18,12:00:00,Consuelo Mack Wealthtrack,#2133,Consuelo Mack Wealth Track,#2133,
-YES,9.2,2025-02-18,13:00:00,American Masters,#309,American Masters,#404,James Baldwin: The Price of the Ticket
-YES,9.2,2025-02-18,17:30:00,,,Newsline,#15167,
-YES,9.2,2025-02-18,17:30:07,Nhk Newsline,#15167,,,
-YES,9.2,2025-02-18,22:00:00,Dw The Day,#14037,The Day,#14037,
-YES,9.2,2025-02-19,06:39:55,Direct Talk,#25036,,,
-YES,9.2,2025-02-19,06:40:00,,,Direct Talk,#25036,
-YES,9.2,2025-02-19,11:30:00,Classical Stretch: By Essentrics,#1305,Classical Stretch,#1305,Energy Boosting with Miranda Esmonde-White
-YES,9.2,2025-02-19,17:30:00,,,Newsline,#15168,
-YES,9.2,2025-02-19,17:30:07,Nhk Newsline,#15168,,,
-YES,9.2,2025-02-19,19:57:30,The Congress,#0,,,
-YES,9.2,2025-02-19,20:00:00,,,Congress,,
-YES,9.2,2025-02-19,21:28:15,Statue of Liberty,#0,,,
-YES,9.2,2025-02-19,21:30:00,,,Statue of Liberty,,
-YES,9.2,2025-02-20,06:39:55,Direct Talk,#25037,,,
-YES,9.2,2025-02-20,06:40:00,,,Direct Talk,#25037,
-YES,9.2,2025-02-20,11:30:00,Classical Stretch: By Essentrics,#1306,Classical Stretch,#1306,Spinal Fascia with Miranda Esmonde-White
-YES,9.2,2025-02-20,13:00:00,Black/White & Brown: Brown Versus The Board of Education,,Black/White & Brown: Brown Versus the Board of Education of Topeka,,
-YES,9.2,2025-02-20,14:00:00,Can We All Get Along? The Segregation of John Muir High,,Can We All Get Along? The Segregation of John Muir High School,,
-YES,9.2,2025-02-20,17:30:00,,,Newsline,#15169,
-YES,9.2,2025-02-20,17:30:07,Nhk Newsline,#15169,,,
-YES,9.2,2025-02-20,22:00:00,Dw The Day,#14039,The Day,#14039,
-YES,9.2,2025-02-20,23:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-21,00:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-YES,9.2,2025-02-21,01:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-YES,9.2,2025-02-21,06:39:55,Direct Talk,#25038,,,
-YES,9.2,2025-02-21,06:40:00,,,Direct Talk,#25038,
-YES,9.2,2025-02-21,07:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-21,08:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-YES,9.2,2025-02-21,09:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-YES,9.2,2025-02-21,10:30:00,Stories from the Stage,#409,,,
-YES,9.2,2025-02-21,11:30:00,Classical Stretch: By Essentrics,#1307,Classical Stretch,#1307,Strengthen the Feet and Legs with Miranda Esmonde-White
-YES,9.2,2025-02-21,12:00:00,Sister Boniface Mysteries,#101,Sister Boniface Mysteries,#1,Unnatural Causes
-YES,9.2,2025-02-21,13:00:00,Father Brown,#192,Father Brown,#902,The Viper's Tongue
-YES,9.2,2025-02-21,14:00:00,Little Women On Masterpiece,#4816,Little Women,#102,
-YES,9.2,2025-02-21,15:00:00,Maryland On Masterpiece,#5424,MaryLand,#102,
-YES,9.2,2025-02-21,17:30:00,,,Newsline,#15170,
-YES,9.2,2025-02-21,17:30:07,Nhk Newsline,#15170,,,
-YES,9.2,2025-02-21,22:00:00,Dw The Day,#14040,The Day,#14040,
-YES,9.2,2025-02-22,05:00:00,Whitney Reynolds Show,#505,The Whitney Reynolds Show,#505,"Peace, Love and Mental Health"
-YES,9.2,2025-02-22,05:30:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
-YES,9.2,2025-02-22,10:00:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
-YES,9.2,2025-02-22,10:30:00,Whitney Reynolds Show,#505,The Whitney Reynolds Show,#505,"Peace, Love and Mental Health"
-YES,9.2,2025-02-22,17:00:00,Tell Me More with Kelly Corrigan,#205,Tell Me More with Kelly Corrigan,#103,Jennifer Garner
-YES,9.2,2025-02-22,17:30:00,Tell Me More with Kelly Corrigan,#206,,,
-YES,9.2,2025-02-22,21:00:00,French Village,#107,A French Village,#107,The Lottery
-YES,9.2,2025-02-22,22:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-22,23:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-YES,9.2,2025-02-23,02:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-YES,9.2,2025-02-23,07:00:00,Dw Focus On Europe,#4309,Focus on Europe,#4309,
-YES,9.2,2025-02-23,07:30:00,Dw Global Us,#1708,Global Us,#1708,
-YES,9.2,2025-02-23,08:00:00,Eyes on the Prize,#105,Eyes on the Prize: World Channel Special,#105,Mississippi: Is This America?: 1962-1964
-YES,9.2,2025-02-23,09:00:00,Eyes on the Prize,#106,Eyes on the Prize: World Channel Special,#106,Bridge to Freedom: 1965
-YES,9.2,2025-02-23,11:00:00,Little Women On Masterpiece,#4817,Little Women,#103,
-YES,9.2,2025-02-23,12:00:00,Maryland On Masterpiece,#5425,MaryLand,#103,
-YES,9.2,2025-02-23,16:30:00,All-Star Orchestra,#604,The All-Star Orchestra,#604,"Schubert's Immortal ""Unfinished Symphony"""
-YES,9.2,2025-02-23,18:00:00,French Village,#107,A French Village,#107,The Lottery
-YES,9.2,2025-02-23,22:30:00,Pov Shorts,#501,POV,#501,POV Shorts: Shut Up and Paint
-YES,9.2,2025-02-24,02:30:00,Pov Shorts,#501,POV,#501,POV Shorts: Shut Up and Paint
-YES,9.2,2025-02-24,03:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-YES,9.2,2025-02-24,05:30:00,Whitney Reynolds Show,#505,The Whitney Reynolds Show,#505,"Peace, Love and Mental Health"
-YES,9.2,2025-02-24,06:00:00,Nhk Newsline,#25039,Newsline,#25039,
-YES,9.2,2025-02-24,06:27:00,,,Newsline In Depth,,
-YES,9.2,2025-02-24,06:27:55,Trails to Oishii Tokyo Mini,#25039,,,
-YES,9.2,2025-02-24,06:37:55,Direct Talk,#25039,,,
-YES,9.2,2025-02-24,06:40:00,,,Direct Talk,#25039,
-YES,9.2,2025-02-24,10:30:00,Pov Shorts,#501,POV,#501,POV Shorts: Shut Up and Paint
-YES,9.2,2025-02-24,11:30:00,Classical Stretch: By Essentrics,#1308,Classical Stretch,#1308,Core Workout with Miranda Esmonde-White
-YES,9.2,2025-02-24,12:00:00,Sister Boniface Mysteries,#101,Sister Boniface Mysteries,#1,Unnatural Causes
-YES,9.2,2025-02-24,13:00:00,Father Brown,#192,Father Brown,#902,The Viper's Tongue
-YES,9.2,2025-02-24,14:00:00,Lucy Worsley's Royal Myths & Secrets,#105,Lucy Worsley's Royal Myths and Secrets,#105,Kings George III & IV and The Napoleonic War
-YES,9.2,2025-02-24,15:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,All God's Creatures
-YES,9.2,2025-02-24,17:30:00,,,Newsline,#15171,
-YES,9.2,2025-02-24,17:30:07,Nhk Newsline,#15171,,,
-YES,9.2,2025-02-24,20:00:00,Lucy Worsley's Royal Myths & Secrets,#101,Lucy Worsley's Royal Myths and Secrets,#101,Elizabeth I: The Warrior Queen
-YES,9.2,2025-02-24,21:00:00,Victoria & Albert: The Wedding,#102,Victoria & Albert,#2,Part 2
-YES,9.2,2025-02-24,22:00:00,Dw The Day,#14041,The Day,#14041,
-YES,9.2,2025-02-24,23:00:00,"Religion, Racism, & Reconciliation",#0,"Religion, Racism & Reconciliation",,
-YES,9.2,2025-02-25,01:00:00,Will to Preach,#0,A Will To Preach,,
-YES,9.2,2025-02-25,04:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,"Buffalo Soldiers: Fighting on Two Fronts: A Local, USA Special",,
-YES,9.2,2025-02-25,06:39:55,Direct Talk,#25040,,,
-YES,9.2,2025-02-25,06:40:00,,,Direct Talk,#25040,
-YES,9.2,2025-02-25,07:00:00,"Religion, Racism, & Reconciliation",#0,"Religion, Racism & Reconciliation",,
-YES,9.2,2025-02-25,09:00:00,Will to Preach,#0,A Will To Preach,,
-YES,9.2,2025-02-25,10:00:00,"Buffalo Soldiers: Fighting On Two Fronts: A Local, Usa",,,,
-YES,9.2,2025-02-25,11:30:00,Classical Stretch: By Essentrics,#1309,Classical Stretch,#1309,Tone Your Legs with Miranda Esmonde-White
-YES,9.2,2025-02-25,12:00:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
-YES,9.2,2025-02-25,14:00:00,Raised/Razed,#0,Raised / Razed,,
-YES,9.2,2025-02-25,17:30:00,,,Newsline,#15172,
-YES,9.2,2025-02-25,17:30:07,Nhk Newsline,#15172,,,
-YES,9.2,2025-02-25,22:00:00,Dw The Day,#14042,The Day,#14042,
-YES,9.2,2025-02-26,06:39:55,Direct Talk,#25041,,,
-YES,9.2,2025-02-26,06:40:00,,,Direct Talk,#25041,
-YES,9.2,2025-02-26,11:30:00,Classical Stretch: By Essentrics,#1310,Classical Stretch,#1310,Hip Strengthing with Miranda Esmonde-White
-YES,9.2,2025-02-26,13:00:00,"Barry Farm: Community, Land and Justice In Washing D.C.",,"Barry Farm: Community, Land and Justice in Washington DC",,
-YES,9.2,2025-02-26,17:30:00,,,Newsline,#15173,
-YES,9.2,2025-02-26,17:30:07,Nhk Newsline,#15173,,,
-YES,9.2,2025-02-26,22:00:00,Dw The Day,#14043,The Day,#14043,
-YES,9.2,2025-02-27,06:39:55,Direct Talk,#25042,,,
-YES,9.2,2025-02-27,06:40:00,,,Direct Talk,#25042,
-YES,9.2,2025-02-27,11:30:00,Classical Stretch: By Essentrics,#1311,Classical Stretch,#1311,Improve Your Balance with Miranda Esmonde-White
-YES,9.2,2025-02-27,17:30:00,,,Newsline,#15174,
-YES,9.2,2025-02-27,17:30:07,Nhk Newsline,#15174,,,
-YES,9.2,2025-02-27,20:00:00,Great Polar Bear Feast,#0,The Great Polar Bear Feast,,
-YES,9.2,2025-02-27,22:00:00,Dw The Day,#14044,The Day,#14044,
-YES,9.2,2025-02-27,23:00:00,Eyes on the Prize,#201,Eyes on the Prize: World Channel Special,#201,The Time Has Come: 1964-1966
-YES,9.2,2025-02-28,00:00:00,Eyes on the Prize,#202,Eyes on the Prize: World Channel Special,#202,Two Societies: 1965-1968
-YES,9.2,2025-02-28,04:00:00,Will to Preach,#0,A Will To Preach,,
-YES,9.2,2025-02-28,06:39:55,Direct Talk,#25043,,,
-YES,9.2,2025-02-28,06:40:00,,,Direct Talk,#25043,
-YES,9.2,2025-02-28,07:00:00,Eyes on the Prize,#201,Eyes on the Prize: World Channel Special,#201,The Time Has Come: 1964-1966
-YES,9.2,2025-02-28,08:00:00,Eyes on the Prize,#202,Eyes on the Prize: World Channel Special,#202,Two Societies: 1965-1968
-YES,9.2,2025-02-28,10:00:00,Will to Preach,#0,A Will To Preach,,
-YES,9.2,2025-02-28,11:30:00,Classical Stretch: By Essentrics,#1312,Classical Stretch,#1312,Core Strengthening to Improve Posture with Miranda Esmonde-White
-YES,9.2,2025-02-28,12:00:00,Sister Boniface Mysteries,#102,Sister Boniface Mysteries,#2,"Lights, Camera, Murder!"
-YES,9.2,2025-02-28,13:00:00,Father Brown,#193,Father Brown,#903,The Requiem for the Dead
-YES,9.2,2025-02-28,14:00:00,Little Women On Masterpiece,#4817,Little Women,#103,
-YES,9.2,2025-02-28,15:00:00,Maryland On Masterpiece,#5425,MaryLand,#103,
-YES,9.2,2025-02-28,17:30:00,,,Newsline,#15175,
-YES,9.2,2025-02-28,17:30:07,Nhk Newsline,#15175,,,
-YES,9.2,2025-02-28,22:00:00,Dw The Day,#14045,The Day,#14045,
-YES,9.2,2025-02-28,23:00:00,Niagara Movement: The Early Battle for Civil Rights,#0,Niagara Movement - The Early Battle for Civil Rights,,
+MISMATCH,Channel,Date,Start Time,Program Name - protrack,Episode Number - protrack,Program Name - titan,Episode Number - titan,Description - titan
+YES,9.1,2025-02-18,12:30:00,Xavier Riddle and the Secret Museum,#223,Xavier Riddle and The Secret Museum,#114A,
+YES,9.1,2025-02-18,13:30:00,Classical Stretch: By Essentrics,#1109,Classical Stretch,#1109,
+YES,9.1,2025-02-18,16:00:00,All Creatures Great and Small On Masterpiece,#5512,All Creatures Great and Small,#5512,
+YES,9.1,2025-02-19,05:30:00,Classical Stretch: By Essentrics,#1110,Classical Stretch,#1110,
+YES,9.1,2025-02-19,16:30:00,Swing Lo',#0,Swing 'Lo,,
+YES,9.1,2025-02-20,05:30:00,Classical Stretch: By Essentrics,#1111,Classical Stretch,#1111,
+YES,9.1,2025-02-20,09:30:00,Work It Out Wombats!,#127,Work It Out Wombats!,#129,
+YES,9.1,2025-02-20,19:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+YES,9.1,2025-02-20,20:00:00,Sister Boniface Mysteries,#101,Sister Boniface Mysteries,#1,
+YES,9.1,2025-02-20,21:00:00,Father Brown,#192,Father Brown,#902,
+YES,9.1,2025-02-21,05:30:00,Classical Stretch: By Essentrics,#1112,Classical Stretch,#1112,
+YES,9.1,2025-02-21,09:00:00,Sesame Street,#5417,Sesame Street,#17,
+YES,9.1,2025-02-21,09:30:00,Work It Out Wombats!,#121,Work It Out Wombats!,#118,
+YES,9.1,2025-02-21,13:30:00,Classical Stretch: By Essentrics,#1112,Classical Stretch,#1112,
+YES,9.1,2025-02-22,04:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+YES,9.1,2025-02-22,05:30:00,Classical Stretch: By Essentrics,#1519,Classical Stretch,#1519,
+YES,9.1,2025-02-22,09:30:00,Daytripper,#1508,The Daytripper,#1508,
+YES,9.1,2025-02-22,10:00:00,Outside: Beyond The Lens,#106,Outside Beyond the Lens,#106,
+YES,9.1,2025-02-22,12:30:00,Key Ingredient with Sheri Castle,#206,The Key Ingredient with Sheri Castle,#206,
+YES,9.1,2025-02-22,14:00:00,America's Test Kitchen,#1806,America's Test Kitchen from Cook's Illustrated,#1806,
+YES,9.1,2025-02-22,14:30:00,Cook's Country,#1609,Cook's Country from America's Test Kitchen,#1609,
+YES,9.1,2025-02-22,18:00:00,Father Brown,#192,Father Brown,#902,
+YES,9.1,2025-02-22,19:00:00,Keeping Up Appearances - The Memoirs of Hyacinth Bucket,,Keeping Up Appearances,#511,
+YES,9.1,2025-02-22,19:30:00,Keeping Up Appearances - The Memoirs of Hyacinth Bucket,,Keeping Up Appearances,#101,
+YES,9.1,2025-02-22,20:45:00,,,Midsomer Murders,#202,
+YES,9.1,2025-02-22,20:50:15,Midsomer Murders,#202,,,
+YES,9.1,2025-02-22,22:00:00,Death In Paradise,#154,Death in Paradise,#706,
+YES,9.1,2025-02-23,03:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+YES,9.1,2025-02-23,05:30:00,Classical Stretch: By Essentrics,#1113,Classical Stretch,#1113,
+YES,9.1,2025-02-23,07:00:00,Lyla in the Loop,#116,Lyla in the Loop,#112,
+YES,9.1,2025-02-23,09:00:00,Sesame Street,#5403,Sesame Street,#17,
+YES,9.1,2025-02-23,09:30:00,Work It Out Wombats!,#121,Work It Out Wombats!,#118,
+YES,9.1,2025-02-23,10:30:00,Texas Parks and Wildlife,#3319,Texas Parks & Wildlife,#3319,
+YES,9.1,2025-02-23,12:30:00,Consuelo Mack Wealthtrack,#2134,Consuelo Mack Wealth Track,#2134,
+YES,9.1,2025-02-23,13:30:00,Texas Talk,#403,Texas Talk with Gilbert Garcia,#403,
+YES,9.1,2025-02-23,17:30:00,Dw Focus On Europe,#4309,Focus on Europe,#4309,
+YES,9.1,2025-02-23,20:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,
+YES,9.1,2025-02-23,23:00:00,Death In Paradise,#154,Death in Paradise,#706,
+YES,9.1,2025-02-24,00:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,
+YES,9.1,2025-02-24,05:30:00,Classical Stretch: By Essentrics,#1114,Classical Stretch,#1114,
+YES,9.1,2025-02-24,09:30:00,Work It Out Wombats!,#130,Work It Out Wombats!,#30,
+YES,9.1,2025-02-24,12:30:00,Xavier Riddle and the Secret Museum,#223,Xavier Riddle and The Secret Museum,#114,
+YES,9.1,2025-02-24,13:30:00,Classical Stretch: By Essentrics,#1114,Classical Stretch,#1114,
+YES,9.1,2025-02-24,14:00:00,Father Brown,#192,Father Brown,#902,
+YES,9.1,2025-02-24,15:50:00,,,Midsomer Murders,,
+YES,9.1,2025-02-24,15:50:15,Midsomer Murders,#202,,,
+YES,9.1,2025-02-24,22:30:00,Pov Shorts,#703,POV Shorts,#702,
+YES,9.1,2025-02-24,23:32:00,,,My Music with Rhiannon Giddens,,
+YES,9.1,2025-02-25,03:00:00,All Creatures Great and Small On Masterpiece,#5513,All Creatures Great and Small,#507,
+YES,9.1,2025-02-25,05:30:00,Classical Stretch: By Essentrics,#1115,Classical Stretch,#1115,
