@@ -65,7 +65,6 @@ def get_schedule(
 
     day = datetime.now() 
     today_str = day.strftime('%Y%m%d')
-    output = f'{output_path}pbs.json' 
     result = {
         "date": today_str
     }
@@ -76,7 +75,7 @@ def get_schedule(
         day_str = day.strftime('%Y%m%d')
         result[day_str] = get_schedule_day(start_url, day_str, headers)         
 
-    with open(output, "w", encoding="utf-8") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2) 
 
-    print(f"Schedule saved to {output}")       
+    print(f"Schedule saved to {output_path}")       
