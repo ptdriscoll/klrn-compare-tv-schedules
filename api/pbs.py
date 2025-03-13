@@ -73,8 +73,7 @@ def get_schedule(
 
     print()
     for x in range(days):
-        day += timedelta(days=x)
-        day_str = day.strftime('%Y%m%d')
+        day_str = (day + timedelta(days=x)).strftime('%Y%m%d')
         result[day_str] = get_schedule_day(start_url, day_str, headers)         
 
     with open(output_path, "w", encoding="utf-8") as f:
