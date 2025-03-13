@@ -4,11 +4,13 @@ A Python application to compare TV schedules for KLRN TV, a PBS television stati
 
 ### Data Setup
 
-The app is currently set up to parse raw files from two sources, which should be placed in the `/data` directory:
+The app is currently set up to parse raw files from three sources, which should be placed in the `/data` directory:
 
 - [ProTrack broadcast management solution](https://myersinfosys.com/protrack-tv/): An Air Date Search Report - with the headers Channel, Air Date, Type, Air Time, Program Title, Source - downloaded as a `.pdf`
 
 - [TitanTV MediaStar Editor](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-editor/): A schedule page set to a channel, saved as `Webpage, Single File (\*.mhtml)`, with the channel (e.g., 9.1) appended to the file name
+
+- [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>): A read-only API that returns a TV schedule, saved as a `.json` file in the `/data` directory
 
 ### Config Setup
 
@@ -62,10 +64,12 @@ Parse a file:
 
 - `python run.py parse protrack`
 - `python run.py parse titan`
+- `python run.py parse pbs`
 
 Compare two files, with optional argument to designate the channel (defaults to 9.1):
 
 - `python run.py compare protrack titan`
+- `python run.py compare protrack pbs`
 - `python run.py compare protrack titan --channel 9.2`
 
 Use API to retrieve raw PBS TV schedule as JSON, and save it in `/data`, with options to set start day (defaults to today) and how many days to get (defaults to 7):
@@ -94,6 +98,8 @@ Examples:
 - Parsed file: `titan.csv`
 - Compared files: `protrack_titan.csv`
 - Compared files: `protrack_titan_mismatches.csv`
+
+NOTE: When using an API to fetch a raw TV schedule, it is saved in `/data`.
 
 ### References
 
