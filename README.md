@@ -68,12 +68,13 @@ Compare two files, with optional argument to designate the channel (defaults to 
 - `python run.py compare protrack titan`
 - `python run.py compare protrack titan --channel 9.2`
 
-Use API to retrieve raw PBS TV schedule as JSON, and place it in `/data`, with option to designate how many days (defaults to 7):
+Use API to retrieve raw PBS TV schedule as JSON, and save it in `/data`, with options to set start day (defaults to today) and how many days to get (defaults to 7):
 
 - `python run.py get pbs`
+- `python run.py get pbs --startdate 20250313`
 - `python run.py get pbs --days 14`
 
-Utility to explore JSON file, with options to designate max level and how many items to show in lists (defaults to, respectively 4 and 6)
+Utility to explore JSON file, with options to designate max level (defaults to 4) and how many items to show in lists (defaults to 6):
 
 - `python run.py explore data/pbs.json`
 - `python run.py explore data/pbs.json --level 3 --items 3`

@@ -1,6 +1,7 @@
 from pathlib import Path
 import argparse
 from config import FILES
+from datetime import datetime
 
 PARSERS = {
     'protrack': 'parsers.protrack.process',
@@ -85,12 +86,13 @@ def compare_schedules(source_1, source_2, channel='9.1'):
     # run comparison
     compare(parsed_path_1, parsed_path_2, output_path, channel)
 
-def get_schedule_from_api(source, days):
+def get_schedule_from_api(source, startdate, days):
     """
     Retrieve raw TV schedule data from an API and store it for later processing.
 
     Args:
         source (str): The source of the TV schedule data (e.g., 'pbs').
+        startdate (str): The start date for retrieving schedule data in 'YYYYMMDD' format.
         days (int): The number of days of data to retrieve.
 
     Returns:
@@ -99,7 +101,7 @@ def get_schedule_from_api(source, days):
 
     from api.pbs import get_schedule
     input_path, _ = get_input_output_paths(source) # output will go to data folder, as an input later
-    get_schedule(input_path, days)
+    get_schedule(input_path, startdate, days)
 
 def explore_file(input_path, level=3, items=3):
     """
@@ -134,7 +136,9 @@ if __name__ == '__main__':
     get_parser = subparsers.add_parser('get', help='Get raw TV schedule data from a source')
     get_parser.add_argument('source', choices=['pbs'], help='Source to get data from')
     get_parser.add_argument('--days', type=int, default=7, help='Number of days of data to retrieve (default: 7)')
-
+    get_parser.add_argument('--startdate', type=str, default=datetime.now().strftime('%Y%m%d'),
+                            help="Start date in 'YYYYMMDD' format (default: today's date)")
+    
     # explore json data command
     explore = subparsers.add_parser('explore', help='Explore a JSON file')
     explore.add_argument('file', help='Relative path to the JSON file from root directory')
@@ -145,5 +149,5 @@ if __name__ == '__main__':
 
     if args.command == 'parse': parse_schedule(args.source)
     elif args.command == 'compare': compare_schedules(args.sources[0], args.sources[1], args.channel)
-    elif args.command == 'get': get_schedule_from_api(args.source, args.days)
+    elif args.command == 'get': get_schedule_from_api(args.source, args.startdate, args.days)
     elif args.command == 'explore': explore_file(args.file, args.level, args.items)

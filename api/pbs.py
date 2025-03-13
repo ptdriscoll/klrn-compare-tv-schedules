@@ -36,6 +36,7 @@ def get_schedule_day(start_url, date, headers):
 
 def get_schedule(    
     output_path,
+    startdate=None,
     days=7,
     api_endpoint=PBS_TV_SCHEDULE_ENDPOINT,
     station=STATION_CALL_SIGN,
@@ -46,6 +47,7 @@ def get_schedule(
 
     Args:
         output_path (str): The directory path where the output JSON file will be saved.
+        startdate (str, optional): The start for retrieving the schedule, in 'YYYYMMDD' format. Defaults to today's date. 
         days (int, optional): The number of days for which the schedule is to be retrieved. Default is 7.
         api_endpoint (str, optional): The PBS TV schedule API endpoint. Default is `PBS_TV_SCHEDULE_ENDPOINT` in config.py.
         station (str, optional): The PBS station call sign. Default is `STATION_CALL_SIGN` in config.py.
@@ -58,16 +60,16 @@ def get_schedule(
         get_schedule('path/to/output/', days=7)
     """    
 
-    start_url = f'{api_endpoint}{station}/day/'  
-    headers = {
-        'X-PBSAUTH': api_key
-    }
+    # determine start date
+    if startdate is None:
+        day = datetime.now()
+        startdate = day.strftime('%Y%m%d')
+    else:
+        day = datetime.strptime(startdate, '%Y%m%d')
 
-    day = datetime.now() 
-    today_str = day.strftime('%Y%m%d')
-    result = {
-        "date": today_str
-    }
+    start_url = f'{api_endpoint}{station}/day/'  
+    headers = {'X-PBSAUTH': api_key}
+    result = {"start_date": startdate}
 
     print()
     for x in range(days):
