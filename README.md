@@ -10,7 +10,7 @@ The app is currently set up to parse raw files from three sources, which should 
 
 - [TitanTV MediaStar Editor](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-editor/): A schedule page set to a channel, saved as `Webpage, Single File (\*.mhtml)`, with the channel (e.g., 9.1) appended to the file name
 
-- [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>): A read-only API that returns a TV schedule, saved as a `.json` file in the `/data` directory
+- [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>): A read-only API that returns a TV schedule, saved as a `.json` file in `/data`
 
 ### Config Setup
 
@@ -42,7 +42,7 @@ PBS_TV_SCHEDULE_API_KEY=<api_key>
 
 This application uses a Conda environment to manage dependencies. You get it at [Anaconda](https://www.anaconda.com/download/) or [Miniconda](https://docs.anaconda.com/miniconda/).
 
-The environment is defined in `environment.yml`. The `name` is set to `klrn-compare-tv-schedules`, which can be changed.
+The environment is defined in `environment.yml`. The `name` is `klrn-compare-tv-schedules`, which can be changed.
 
 In an Anaconda Prompt, from the application's root directory, there are two options to set up the environment:
 
