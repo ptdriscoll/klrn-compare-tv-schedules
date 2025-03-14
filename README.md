@@ -10,11 +10,11 @@ The app is currently set up to parse raw files from three sources, which should 
 
 - [TitanTV MediaStar Editor](https://www.titantvinc.com/broadcast-software/mediastar-suite/mediastar-editor/): A schedule page set to a channel, saved as `Webpage, Single File (\*.mhtml)`, with the channel (e.g., 9.1) appended to the file name
 
-- [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>): A read-only API that returns a TV schedule, saved as a `.json` file in `/data`
+- [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>): A read-only API that returns a TV schedule, saved as `.json` to the `/data` folder
 
 ### Config Setup
 
-In `config.py`, a dictionary called `FILES` maps each parser to a raw file placed in `/data`. The format is `"parser_name": "file_name"`:
+The `config.py` file defines how raw schedule files are mapped to respective parsers. The `FILES` dictionary associates each parser with a file stored in the `/data` directory:
 
 ```
 FILES = {
@@ -24,7 +24,7 @@ FILES = {
 }
 ```
 
-Also, to call the [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>) to fetch a raw schedule and place it in `/data`, several variables need to be set here:
+To fetch a raw schedule using the [PBS TV Schedules Service API](<https://docs.pbs.org/space/tvsapi/3964930/TV+Schedules+Service+(TVSS)+API>), which is saved to the `/data` directory, the following variables must be set in `config.py`:
 
 ```
 PBS_TV_SCHEDULE_API_KEY = os.getenv('PBS_TV_SCHEDULE_API_KEY')
@@ -32,7 +32,7 @@ PBS_TV_SCHEDULE_ENDPOINT = 'https://tvss.services.pbs.org/tvss/'
 STATION_CALL_SIGN = 'klrn'
 ```
 
-PBS stations can [request an API key](https://digitalsupport.pbs.org/support/tickets/new). To get the key to load into `config.py`, create an `.env` file, add the variable `PBS_TV_SCHEDULE_API_KEY` and set the variable to the key's value:
+PBS stations can [request an API key](https://digitalsupport.pbs.org/support/tickets/new). Once obtained, create an `.env` file in the root directory and add the following:
 
 ```
 PBS_TV_SCHEDULE_API_KEY=<api_key>
@@ -99,7 +99,7 @@ Examples:
 - Compared files: `protrack_titan.csv`
 - Compared files: `protrack_titan_mismatches.csv`
 
-NOTE: When using an API to fetch a raw TV schedule, it is saved in `/data`.
+NOTE: When using an API to fetch a raw TV schedule, the file gets saved to the `/data` directory.
 
 ### References
 
