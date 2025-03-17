@@ -18,7 +18,7 @@ def parse(input_path, output_path):
         - Date (datetime): The broadcast date.
         - Start Time (datetime): The program's start time.
         - Program Name (str): The name of the TV program.
-        - Episode Number (str, optional): The episode number if available.
+        - Nola Episode (str, optional): The Nola episode number if available.
 
     Notes:
         - Extracts text from each page of the PDF file.
@@ -36,7 +36,7 @@ def parse(input_path, output_path):
     print('\nEXTRACTING DATA FROM ' + str(num_pages) + ' PAGES')
     
     data = []
-    columns = ['Channel', 'Date', 'Start Time', 'Program Name', 'Episode Number']
+    columns = ['Channel', 'Date', 'Start Time', 'Program Name', 'Nola Episode']
     pattern_time = r'\d{2}:\d{2}:\d{2}:\d{2}'
     pattern_channel = r'KLRN(\d+\.\d+|\w{2})'
     pattern_date = r'\b\d{2}/\d{2}/\d{4}\b'

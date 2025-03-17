@@ -5,8 +5,8 @@ load_dotenv()
 
 # names of raw files to parse, in format {'parser': 'file_name'}
 FILES = {
-    'protrack': 'Protrack-2025-04.pdf', # .pdf format
-    'titan': 'MediaStar-2025-03-31_9.1.mhtml', # .mhtml format
+    'protrack': 'Protrack-2025-03.pdf', # .pdf format
+    'titan': 'MediaStar-2025-03-17_9.1.mhtml', # .mhtml format
     'pbs': 'pbs.json' # .json format
 }
 

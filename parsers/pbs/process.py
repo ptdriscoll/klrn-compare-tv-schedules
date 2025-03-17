@@ -22,7 +22,7 @@ def parse(input_path, output_path):
         - Start Time (datetime): The program's start time.
         - Program Name (str): The name of the TV program.
         - Episode Name (str): The name of the TV program episode.
-        - Episode Number (str, optional): The episode number if available.
+        - Nola Episode (str, optional): The Nola episode number if available.
         - Description (str, optional): A brief description of the program. 
 
     Notes:
@@ -62,16 +62,16 @@ def parse(input_path, output_path):
                         formatted_date,
                         formatted_time,
                         listing.get('title', ''),
-                        listing.get('episode_title', ''),
-                        f"#{listing.get('episode_number', '')}" if listing.get('episode_number') else '',
+                        f"#{listing.get('nola_episode', '')}" if listing.get('nola_episode') else '',
+                        listing.get('episode_title', ''),                        
                         listing.get('description', ''),
                         sort_date,
                         sort_time
                     ])
     
     df = pd.DataFrame(rows, columns=[
-        'Channel', 'Date', 'Start Time', 'Program Name', 'Episode Name', 
-        'Episode Number', 'Description', 'sort date', 'sort time'
+        'Channel', 'Date', 'Start Time', 'Program Name', 'Nola Episode', 
+        'Episode Name', 'Description', 'sort date', 'sort time'
     ])
 
     # sort by Channel (as float), Date, and Start Time
