@@ -1,7 +1,7 @@
 from pathlib import Path
 import argparse
 from config import FILES
-from datetime import datetime
+from datetime import datetime, timedelta
 
 PARSERS = {
     'protrack': 'parsers.protrack.process',
@@ -138,6 +138,7 @@ if __name__ == '__main__':
     get_parser.add_argument('--days', type=int, default=7, help='Number of days of data to retrieve (default: 7)')
     get_parser.add_argument('--startdate', type=str, default=datetime.now().strftime('%Y%m%d'),
                             help="Start date in 'YYYYMMDD' format (default: today's date)")
+    get_parser.add_argument('--enddate', type=str, help="End date in 'YYYYMMDD' format (inclusive)")
     
     # explore json data command
     explore = subparsers.add_parser('explore', help='Explore a JSON file')
@@ -149,5 +150,16 @@ if __name__ == '__main__':
 
     if args.command == 'parse': parse_schedule(args.source)
     elif args.command == 'compare': compare_schedules(args.sources[0], args.sources[1], args.channel)
-    elif args.command == 'get': get_schedule_from_api(args.source, args.startdate, args.days)
     elif args.command == 'explore': explore_file(args.file, args.level, args.items)
+    elif args.command == 'get': 
+        start_date = datetime.strptime(args.startdate, "%Y%m%d") 
+
+        if args.enddate:
+            end_date = datetime.strptime(args.enddate, "%Y%m%d")
+            days = (end_date - start_date).days + 1  # add 1 to ensure enddate is inclusive
+            if args.days != 7:  # check if user provided --days flag
+                print(f'\nNOTE: --enddate provided, so --days ({args.days}) will be ignored')
+        else:
+            days = args.days      
+        
+        get_schedule_from_api(args.source, args.startdate, days)    
