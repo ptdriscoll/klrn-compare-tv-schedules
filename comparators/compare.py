@@ -33,9 +33,9 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
               or an empty string if they match.
 
     Notes:
-        - CSV files are merged into a DataFrame on the columns:
-          Channel, Date, and Start Time as keys.
+        - CSV files are merged into a DataFrame on the columns: Channel, Date, and Start Time as keys.
         - All other columns are included with names concatenated with either " - (file 1 name)" or " - (file 2 name)".
+        - A DateTime column is added to filter by shared timeframes, and then sort by date and time, before being dropped.
         - A MISMATCH column is added, and values in "Program Name - (file 1 name)" and "Program Name - (file 2 name)" are compared:
             - If they match, the value of MISMATCH is ''.
             - If they don't match, the value of MISMATCH is 'YES'.
@@ -73,13 +73,14 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
     df_1_unique = df_1.columns.difference(df_2.columns).drop(common_cols, errors="ignore")
     df_2_unique = df_2.columns.difference(df_1.columns).drop(common_cols, errors="ignore")
     df_1 = df_1.rename(columns={col: col + suffixes[0] for col in df_1_unique})
-    df_2 = df_2.rename(columns={col: col + suffixes[1] for col in df_2_unique})     
+    df_2 = df_2.rename(columns={col: col + suffixes[1] for col in df_2_unique}) 
 
     # merge on Channel, Date, Start Time and DateTime    
     df = pd.merge(df_1, df_2, on=merge_cols, how='outer', suffixes=suffixes)
 
-    # trim for time frame
+    # trim for time frame, and then sort by DateTime before dropping that column
     df = df[(df['DateTime'] >= datetime_start) & (df['DateTime'] <= datetime_end)]
+    df = df.sort_values(by='DateTime')
     df.drop(columns=['DateTime'], inplace=True)
 
     # create MISMATCH column
