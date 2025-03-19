@@ -4,21 +4,12 @@ import pandas as pd
 import re
 
 
-def parse(input_path, output_path):
+def parse(input_path):
     """
     Parses a reference PDF file and outputs a structured CSV file.
 
-    Args:
+    Arg:
         input_path (Path): Path to the input PDF file.
-        output_path (Path): Path to the output CSV file.
-
-    Output:
-        A CSV file containing parsed TV schedule data with the following columns:
-        - Channel (str): The TV channel identifier.
-        - Date (datetime): The broadcast date.
-        - Start Time (datetime): The program's start time.
-        - Program Name (str): The name of the TV program.
-        - Nola Episode (str, optional): The Nola episode number if available.
 
     Notes:
         - Extracts text from each page of the PDF file.
@@ -26,7 +17,14 @@ def parse(input_path, output_path):
         - Cleans and formats extracted data.
         - Converts dates and times to appropriate formats.
         - Sorts the output by Channel, Date, and Start Time.
-        - Writes the final structured data to a CSV file.
+
+    Returns:
+        pd.DataFrame: A DataFrame containing parsed TV schedule data with the following columns: 
+        - Channel (str): The TV channel identifier.
+        - Date (datetime): The broadcast date.
+        - Start Time (datetime): The program's start time.
+        - Program Name (str): The name of the TV program.
+        - Nola Episode (str, optional): The Nola episode number if available.               
     """
         
     reader = PdfReader(input_path)
@@ -85,5 +83,5 @@ def parse(input_path, output_path):
     print('\n' + str(line_count) + ' LINES EXTRACTED')
     print('\n', df.head(20))  
     
-    df.to_csv(output_path, index=False)   
+    return df  
     

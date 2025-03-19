@@ -3,12 +3,6 @@ import argparse
 from config import FILES
 from datetime import datetime, timedelta
 
-PARSERS = {
-    'protrack': 'parsers.protrack.process',
-    'titan': 'parsers.titan.process',
-    'pbs': 'parsers.pbs.process'
-}   
-
 def get_input_output_paths(source):
     """
     Gets absolute paths of input and output files, based on source, which comes from a 
@@ -18,7 +12,7 @@ def get_input_output_paths(source):
         source (str): Name of module in parsers. 
 
     Returns:
-        Tuple[Path, Path]: Absolute paths of input and output files.        
+        Tuple[list[Path], Path]: Absolute paths of input and output files.        
     """
     
     # set up absolute paths
@@ -34,7 +28,7 @@ def get_input_output_paths(source):
 
     return input_paths, output_path  
 
-def parse_schedule(source, input_path='', output_path=''):
+def parse_schedule(source):
     """
     Parses TV schedule by running process.parse() from a module in parsers. The module is
     determined by `source`, which comes from a command-line argument. The result is
@@ -45,16 +39,11 @@ def parse_schedule(source, input_path='', output_path=''):
         input_path (str, optional): Path to the input file. Defaults to an empty string.
         output_path (str, optional): Path to the output file. Defaults to an empty string.   
     """
+
+    from parsers.parse_files import parse
     
-    # import parse
-    if source in PARSERS:
-        parse = getattr(__import__(PARSERS[source], fromlist=['parse']), 'parse')
-
-    # check for input and output paths, and get if needed
-    if not input_path and not output_path: 
-        input_path, output_path = get_input_output_paths(source)
-
-    parse(input_path, output_path)
+    input_paths, output_path = get_input_output_paths(source)
+    parse(input_paths, output_path, source)
 
 def compare_schedules(source_1, source_2, channel='9.1'):
     """
@@ -124,7 +113,7 @@ def explore_file(input_path, level=3, items=3):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Parse or compare TV schedules, or get schedule data')
     subparsers = parser.add_subparsers(dest='command', required=True)
-    choices = list(PARSERS.keys()) 
+    choices = list(FILES.keys()) 
 
     # parse command
     parse = subparsers.add_parser('parse', help='Parse a TV schedule from source')
