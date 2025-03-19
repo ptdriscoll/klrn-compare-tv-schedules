@@ -15,6 +15,16 @@ def parse(input_paths, output_path, source):
         input_paths (list[Path]): List of file paths to parse.
         output_path (Path): Path to save the concatenated CSV file.
         source (str): The source module to use ('pbs', 'protrack' or 'titan').
+
+    Output:
+        A CSV file containing parsed TV schedule data with the following columns:
+        - Channel (str): The TV channel identifier.
+        - Date (datetime): The broadcast date.
+        - Start Time (datetime): The program's start time.
+        - Program Name (str): The name of the TV program.
+        - Episode Name (str): The name of the TV program episode.
+        - Nola Episode (str, optional): The Nola episode number if available.
+        - Description (str, optional): A brief description of the program.         
     """
 
     # import parse
