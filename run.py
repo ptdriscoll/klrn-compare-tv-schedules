@@ -18,18 +18,21 @@ def get_input_output_paths(source):
         source (str): Name of module in parsers. 
 
     Returns:
-        Tuple[str, str]: Absolute paths of input and output files.        
+        Tuple[Path, Path]: Absolute paths of input and output files.        
     """
     
     # set up absolute paths
     ROOT_DIR = Path(__file__).resolve().parent
     output_dir = ROOT_DIR / 'output'
 
-    # create input and output paths
-    input_path = ROOT_DIR / 'data' / FILES[source]
+    # create input paths
+    input_files = FILES[source] # always a list
+    input_paths = [ROOT_DIR / 'data' / file for file in input_files]
+
+    # create output path
     output_path = output_dir / f'{source}.csv'
 
-    return str(input_path), str(output_path)  
+    return input_paths, output_path  
 
 def parse_schedule(source, input_path='', output_path=''):
     """

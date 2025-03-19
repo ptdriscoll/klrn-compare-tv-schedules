@@ -12,8 +12,8 @@ def parse(input_path, output_path):
         - "listings": A list of program listings for that channel on that date.
 
     Args:
-        json_file (str): Path to the input JSON file containing the TV schedule.
-        output_csv (str): Path to the output CSV file.
+        input_path (Path): Path to the input JSON file containing the TV schedule.
+        output_path (Path): Path to the output CSV file.
 
     Output:
         A CSV file containing parsed TV schedule data with the following columns:

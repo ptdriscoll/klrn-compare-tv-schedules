@@ -9,8 +9,8 @@ def parse(input_path, output_path):
     Parses a reference PDF file and outputs a structured CSV file.
 
     Args:
-        input_path (str): Path to the input PDF file.
-        output_path (str): Path to the output CSV file.
+        input_path (Path): Path to the input PDF file.
+        output_path (Path): Path to the output CSV file.
 
     Output:
         A CSV file containing parsed TV schedule data with the following columns:
