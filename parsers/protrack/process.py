@@ -3,10 +3,9 @@ import re
 import pandas as pd
 import re
 
-
 def parse(input_path):
     """
-    Parses a reference PDF file and outputs a structured CSV file.
+    Parses a PDF TV schedule file and returns a DataFrame.
 
     Arg:
         input_path (Path): Path to the input PDF file.
@@ -21,8 +20,8 @@ def parse(input_path):
     Returns:
         pd.DataFrame: A DataFrame containing parsed TV schedule data with the following columns: 
         - Channel (str): The TV channel identifier.
-        - Date (datetime): The broadcast date.
-        - Start Time (datetime): The program's start time.
+        - Date (datetime.date): The broadcast date.
+        - Start Time (datetime.time): The program's start time.
         - Program Name (str): The name of the TV program.
         - Nola Episode (str, optional): The Nola episode number if available.               
     """
@@ -75,13 +74,14 @@ def parse(input_path):
     
     df = pd.DataFrame(data, columns=columns)  
     df['Channel'] = df['Channel'].astype(str) 
-    df['Date'] = pd.to_datetime(df['Date'])
-    df['Start Time'] = pd.to_datetime(df['Start Time'], format='%H:%M:%S:%f').dt.strftime('%H:%M:%S')
-    df = df.sort_values(by=['Channel', 'Date', 'Start Time'])
-    df = df.map(lambda x: re.sub(r'\s+', ' ', x.strip()) if isinstance(x, str) else x)
+    df['Date'] = pd.to_datetime(df['Date']).dt.date
+    df['Start Time'] = df['Start Time'].str.rsplit(':', n=1).str[0]  # remove last ':00'
+    df['Start Time'] = pd.to_datetime(df['Start Time'], format='%H:%M:%S').dt.time
+    df = df.sort_values(by=['Channel', 'Date', 'Start Time']) # sort
+    df = df.map(lambda x: re.sub(r'\s+', ' ', x.strip()) if isinstance(x, str) else x) # remove extra white spaces
     
     print('\n' + str(line_count) + ' LINES EXTRACTED')
-    print('\n', df.head(20))  
-    
+    print('\n', df.head())  
+  
     return df  
     

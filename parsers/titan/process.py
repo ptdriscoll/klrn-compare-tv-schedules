@@ -4,8 +4,6 @@ import email
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
-from datetime import datetime
-
 
 def split_cell(row):
     """
@@ -80,8 +78,6 @@ def adjust_dates_times(df):
     is_am = True 
     current_date = None
     last_time = None
-    noon = pd.to_datetime("1900-01-01 12:00:00")
-    midnight = pd.to_datetime("1900-01-01 00:00:00")
 
     for i, row in df.iterrows():
         if not current_date: current_date = row['Date']
@@ -155,29 +151,27 @@ def adjust_dates_times(df):
     df["Start Time"] = new_times
     return df
 
-def parse(input_path, output_path):
+def parse(input_path):
     """
-    Parses a comparison file in Edge's .mhtml format and outputs a CSV file.
+    Parses a TV schedule file, in Edge's .mhtml format, and returns a DataFrame.
 
-    Args:
+    Arg:
         input_path (Path): Path to the input .mhtml file.
-        output_path (Path): Path to the output CSV file.
-
-    Output:
-        A CSV file containing parsed TV schedule data with the following columns:
-        - Channel (str): The TV channel.
-        - Date (datetime): The broadcast date.
-        - Start Time (datetime): The program's start time.
-        - Program Name (str): The name of the TV program.
-        - Episode Number (str, optional): The episode number, if available.
-        - Description (str, optional): A brief description of the program.        
 
     Notes:
         - Extracts program schedule data from the .mhtml file.
         - Adjusts dates and times for AM/PM transitions.
         - Cleans up extra whitespace in extracted data.
-        - Splits "Program Info" into separate columns.
-        - Writes the final structured data to a CSV file.
+        - Splits "Program Info" into separate columns.        
+
+    Output:
+        pd.DataFrame: A DataFrame containing parsed TV schedule data with the following columns:
+        - Channel (str): The TV channel.
+        - Date (datetime.date): The broadcast date.
+        - Start Time (datetime.time): The program's start time.
+        - Program Name (str): The name of the TV program.
+        - Episode Number (str, optional): The episode number, if available.
+        - Description (str, optional): A brief description of the program.
     """     
     
     with open(input_path, 'rb') as f:        
@@ -223,30 +217,29 @@ def parse(input_path, output_path):
               
             # collapse headers into one column, and data from columns into second column  
             df = df.melt(var_name='Date', value_name='Program Info').dropna(subset=['Program Info'])
-            df['Date'] = pd.to_datetime(df['Date'])
+            df['Date'] = pd.to_datetime(df['Date']).dt.date
             
             # get TV channel from file name, and add as column to df
             file_name = Path(input_path).name
             match = re.search(r'_(.*?)\.mhtml$', file_name)
             channel = match.group(1) if match else '9.1'
-            df.insert(0, 'Channel', channel) 
-            
-            df['Channel'] = df['Channel'].astype(str) 
-
-            # remove extra white spaces
-            df = df.map(lambda x: re.sub(r'\s+', ' ', x.strip()) if isinstance(x, str) else x)            
+            df.insert(0, 'Channel', channel)             
+            df['Channel'] = df['Channel'].astype(str)
 
             # split Program Info column
             new_cols = ['Start Time', 'Program Name', 'Episode Number', 'Description']
             df[new_cols] = df['Program Info'].apply(split_cell)
             df.drop(columns=['Program Info'], inplace=True)
-            df['Start Time'] = pd.to_datetime(df['Start Time'], format='%H:%M', errors='coerce')
+            df['Start Time'] = pd.to_datetime(df['Start Time'], format='%H:%M', errors='coerce') # transform to pd.Timestamp
 
             # adjust times in afternoons, and dates past midnight
             df = adjust_dates_times(df)
-            df['Start Time'] = df['Start Time'].dt.strftime('%H:%M:%S') # format for later comparison 
-       
-            df.to_csv(output_path, index=False) 
+            df['Start Time'] = df['Start Time'].dt.strftime('%H:%M:%S').apply(pd.to_datetime).dt.time # dt.time for later comparison 
+
+            # remove extra white spaces
+            df = df.map(lambda x: re.sub(r'\s+', ' ', x.strip()) if isinstance(x, str) else x)  
+ 
+            return df 
             
         else: print('No data found in comparison file')   
 

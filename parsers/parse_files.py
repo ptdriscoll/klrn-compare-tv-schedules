@@ -19,8 +19,8 @@ def parse(input_paths, output_path, source):
     Output:
         A CSV file containing parsed TV schedule data with the following columns:
         - Channel (str): The TV channel identifier.
-        - Date (datetime): The broadcast date.
-        - Start Time (datetime): The program's start time.
+        - Date (datetime.date): The broadcast date.
+        - Start Time (datetime.time): The program's start time.
         - Program Name (str): The name of the TV program.
         - Episode Name (str): The name of the TV program episode.
         - Nola Episode (str, optional): The Nola episode number if available.
@@ -37,11 +37,10 @@ def parse(input_paths, output_path, source):
         df = parse(path)
         dfs.append(df)
     
-    # concatenate all DataFrames
+    # concatenate all DataFrames, remove duplicates, and sort 
     df = pd.concat(dfs, ignore_index=True)
-    
-    # remove duplicates
     df = df.drop_duplicates()
+    df = df.sort_values(by=['Channel', 'Date', 'Start Time'])
 
     # save result to output_path
     df.to_csv(output_path, index=False)
