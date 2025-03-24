@@ -75,11 +75,13 @@ Parse a file or multiple files at once:
 - `python run.py parse titan`
 - `python run.py parse pbs`
 
-Compare two files, with optional argument to designate the channel (defaults to 9.1):
+Compare two files, with optional arguments to designate the channel (defaults to 9.1), and start and end dates (defaults to available dates):
 
 - `python run.py compare protrack titan`
 - `python run.py compare protrack pbs`
 - `python run.py compare protrack titan --channel 9.2`
+- `python run.py compare protrack titan --channel 9.2 --startdate 20250318 --enddate 20250331`
+- `python run.py compare protrack titan --startdate 20250318 --enddate 20250331`
 
 Use API to retrieve raw PBS TV schedule as JSON, and save it to `/data` folder, with options to set start day (defaults to today), how many days to get (defaults to 7), and ending date (which overrides how many days to get):
 

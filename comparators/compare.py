@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
+def compare_tv_schedules(path_1, path_2, output_path, channel='9.1', start_date=None, end_date=None):
     """
     Compares two CSV files with TV schedules to identify day and time slots that do not match, and outputs a CSV file.
     
@@ -20,6 +20,8 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
 
         output_path (str): Path where the output CSV file will be saved.
         channel (str, optional): TV channel to filter the comparison. Defaults to '9.1'.
+        start_date (datetime, optional): The start date for retrieving data. Defaults to `None`.
+        end_date (datetime, optional): The end date for retrieving data. Defaults to `None`.        
     
     Output:
         A CSV file at `output_path` containing the combined TV schedules and a `MISMATCH` column:
@@ -66,6 +68,10 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1'):
     # get shared time frame
     datetime_start = max(df_1['DateTime'].min(), df_2['DateTime'].min())
     datetime_end = min(df_1['DateTime'].max(), df_2['DateTime'].max())
+
+    # if user set start and end dates, use those if they are, respectively, later and earlier
+    if start_date and start_date > datetime_start: datetime_start = start_date
+    if end_date and end_date < datetime_end: datetime_end = end_date
 
     # create column suffixes
     file_1_name = Path(path_1).stem
