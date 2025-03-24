@@ -14,13 +14,22 @@ The app is currently set up to parse raw files from three sources, which should 
 
 ### Config Setup
 
-The `config.py` file defines how raw schedule files are mapped to respective parsers. The `FILES` dictionary associates each parser with a file stored in the `/data` directory:
+The `config.py` file defines how raw schedule files are mapped to respective parsers. The `FILES` dictionary associates each parser with a file or files stored in the `/data` directory:
 
 ```
 FILES = {
-    'protrack': 'February 2025 Schedule.pdf', # .pdf format
-    'titan': 'MediaStar_9.1.mhtml', # .mhtml format
-    'pbs': 'pbs.json' # .json format
+    'protrack': [  # pdf format
+        'Protrack-2025-03.pdf',
+        'Protrack-2025-04.pdf'
+    ],
+    'titan': [  # mhtml format
+        'MediaStar-2025-03-17_9.1.mhtml',
+        'MediaStar-2025-03-24_9.1.mhtml',
+        'MediaStar-2025-03-31_9.1.mhtml'
+    ],
+    'pbs': [  # json format
+        'pbs.json'
+    ]
 }
 ```
 
@@ -60,7 +69,7 @@ In an Anaconda Prompt, from the application's root directory, there are two opti
 
 ### Running Commands
 
-Parse a file:
+Parse a file or multiple files at once:
 
 - `python run.py parse protrack`
 - `python run.py parse titan`
