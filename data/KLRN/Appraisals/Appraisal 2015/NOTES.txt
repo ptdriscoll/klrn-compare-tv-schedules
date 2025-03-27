@@ -1,0 +1,33 @@
+Redevelop core website in Bento content management system, and establish subdomain on current server for non-CMS needs
+
+Upgrade Google Analytics on the website to latest version and implement tracking for Key Performance Indicators
+
+Create a blogging and content strategy to build KLRN into an authoritative digital channel
+
+Explore and learn technologies used in PBS’ Bento ecosystem, including the Python programming language, Django framework and MySQL databases
+
+Identify database hosting options and develop a pilot project to serve as a template for other applications
+
+
+
+Redeveloped core website
+Customized design to fit KLRN brand
+Develped a dozen plugins to address functionality not available in Bento, such as a Splash Page application, an ARTS Calendar embed, a slider with dropdown windows to watch videos, social media widgets with the latest API feeds, a landing page for the Newsfund  
+Updated KLRN javascript library to make it modular and portable
+
+KLRN News, blog and Newsfund pages
+Set up blogs for KLRN News, Station News and Education 
+
+Completed a data-driven web app to dynamically display pledge programs with related video previews, TV schedules and thank-you gifts. The app includes a gift page where donors can search and sort all pledge gifts, and click to see details on each.
+
+
+GOALS
+Optimize donor funnels 
+Optimize website engagement 
+Monetize website through Passport and Google Doubleclick
+Update Allegiance forms
+Create user interfaces for Bento customizations
+Migrate landing pages
+Migrate Gift App
+Identify database hosting options and develop a pilot project to serve as a template for other applications
+

@@ -1,0 +1,15 @@
+TV Listings Manager 
+
+The TV Listings Manager tool provides a way for stations to modify their individual, local TV Schedule listings used within PBS Digital products. 
+
+What it controls: Make updates to the schedule modules provided by PBS.
+Console URL: https://tvss.services.pbs.org/login/
+Login Method: PBS/Single Sign-On Account
+How to Gain Access: Submit a Digital Support Ticket
+Documentation and FAQs: https://docs.pbs.org/space/TLM/5046280/TV+Listings+Manager
+
+Changes made here are picked up daily by Gracenote at 4 a.m. each morning. But while these changes will show up on PBS digital schedules within 90 minutes, Gracenote requires 72 hours to populate the changes in other schedules. 
+
+Also, the interface looks like it’s built for quick fixes only. You can only look at 24 hours at a time, and you can’t make edits more than two weeks out. It’s not something you would want to use for bulk changes.
+
+ 

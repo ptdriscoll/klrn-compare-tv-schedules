@@ -94,8 +94,9 @@ def get_schedule_from_api(source, start_date, days):
     """
 
     from api.pbs import get_schedule
-    input_path, _ = get_input_output_paths(source) # output will go to data folder, as an input later
-    get_schedule(input_path, startdate, days)
+    input_paths, _ = get_input_output_paths(source) # output will go to data folder, as an input later
+    input_path = input_paths[0] # get the first path in the list
+    get_schedule(input_path, start_date, days)
 
 def explore_file(input_path, level=3, items=3):
     """

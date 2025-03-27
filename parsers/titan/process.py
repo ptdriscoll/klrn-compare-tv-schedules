@@ -227,7 +227,7 @@ def parse(input_path):
             df['Channel'] = df['Channel'].astype(str)
 
             # split Program Info column
-            new_cols = ['Start Time', 'Program Name', 'Episode Number', 'Description']
+            new_cols = ['Start Time', 'Program Name', 'Nola Episode', 'Description']
             df[new_cols] = df['Program Info'].apply(split_cell)
             df.drop(columns=['Program Info'], inplace=True)
             df['Start Time'] = pd.to_datetime(df['Start Time'], format='%H:%M', errors='coerce') # transform to pd.Timestamp

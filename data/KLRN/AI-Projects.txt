@@ -1,0 +1,95 @@
+
+==================================================
+https://www.deeplearning.ai/
+
+LLMOps
+https://www.deeplearning.ai/short-courses/llmops/
+
+JavaScript RAG Web Apps with LlamaIndex
+https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/
+
+Building Agentic RAG with LlamaIndex
+https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/
+
+AI Agents in LangGraph
+https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/
+
+Multi AI Agent Systems with crewAI
+https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/
+
+==================================================
+https://www.coursera.org/search
+
+Mining Quality Prediction Using Machine & Deep Learning
+https://www.coursera.org/projects/mining-quality-prediction
+
+Interpretable Machine Learning Applications
+https://www.coursera.org/projects/interpretable-machine-learning-applications-part-1
+https://www.coursera.org/projects/interpretable-machine-learning-applications-part-2
+https://www.coursera.org/projects/interpretable-machine-learning-applications-part-3
+https://www.coursera.org/projects/interpretable-machine-learning-applications-part-4
+https://www.coursera.org/projects/interpretable-machine-learning-applications-part-5
+
+Machine Learning with PySpark: Customer Churn Analysis
+https://www.coursera.org/projects/machine-learning-with-pyspark-customer-churn-analysis
+
+Web Scraping With GPT: Translate Foreign News Headlines
+https://www.coursera.org/projects/rudi-hinds-ai-web-scraping-with-gpt-translating-foreign-news-headlines
+
+Build your first Machine Learning Pipeline using Dataiku
+https://www.coursera.org/projects/build-your-first-machine-learning-pipeline-using-dataiku-tool
+
+
+
+NLP: Twitter Sentiment Analysis
+https://www.coursera.org/projects/twitter-sentiment-analysis
+
+Sentiment Analysis with Deep Learning using BERT
+https://www.coursera.org/projects/sentiment-analysis-bert
+
+Fine Tune BERT for Text Classification with TensorFlow
+https://www.coursera.org/projects/fine-tune-bert-tensorflow
+
+Tweet Emotion Recognition with TensorFlow
+https://www.coursera.org/projects/tweet-emotion-tensorflow
+
+
+
+Product Reviews Text-based Search - OpenAI Text Embedding
+https://www.coursera.org/projects/product-reviews-text-based-search-openai-text-embedding
+
+
+
+Build a Movie Recommendation App with OpenAI
+https://www.coursera.org/projects/ai-powered-movie-recommendation-app
+
+Machine Learning with PySpark: Recommender System
+https://www.coursera.org/projects/machine-learning-with-pyspark-recommender-system
+
+Product Recommender System: OpenAI Text Embedding
+https://www.coursera.org/projects/product-recommender-system---openai-text-embedding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================
+
+
+
+
+
+
+
+

@@ -1,0 +1,409 @@
+To check your office voice mail from home perform the following: 
+Dial 210.208.8601
+Hit # when the auto attendant starts talking
+Input your extension
+Input your password plus #
+
+print 4050
+
+KLRN WiFi KLRN2 klrn2222
+
+Marketing Cheat Sheet - Calendars
+Clicking any link in the cheat sheet from any email will give you read access 
+Logging in as KLRNtv78215 will give you editor privileges
+https://docs.google.com/spreadsheets/d/16l01B2Wjnnw9HyLnUwsOapphHVyX6SvOOWtRJMbSHbc/edit?usp=sharing 
+
+VPPA and other stats on NextCloud
+https://nextcloud.pbs.org/ PBS Account
+
+Station Passport account
+User: programming@klrn.org
+Password: KLRNaptc9!
+
+Adobe Creative Cloud @ Klrn2020*
+
+KLRN Marketing team Zoom kkehoe@klrn.org klrn9pr1
+
+KLRN Content Strategy Committee
+https://drive.google.com/drive/folders/1FWGIli-_WGSNTDoUSw42AJfP_pdSJ2LT
+
+https://www.canva.com/ pr@klrn.org klrn9pr1
+
+eMarketer Klrn16*
+
+Bluehost Klrn15*(
+
+MongoLab klrn @ Klrn15*
+
+Mapquest KLRN pr@klrn.org Klrn2015*
+oJmu3mtENikwNdw5Llu3JECqzjwqug8G 
+v1tgeE0eYzYo5a0H 
+https://developer.mapquest.com/user/reset/118008/1448982060/T12CRBMcGked4EhYpeiVNoJ7QNtNkEGmtHGbXPQUz8I
+
+Mapbox klrn @ Klrntv15*
+
+toastmaster Club:  9082, Password:  dptsa123
+http://9082.toastmastersclubs.org/agenda-188792.html
+
+Crazy Egg @ Klrn13* 
+
+Amazon @ Klrn13*
+3KGTZP
+
+Dreamhost
+pr@klrn.org
+UN: dh_n4634u
+PW: $5_2styBJ_2zdZN
+ssh dh_n4634u@vps23961.dreamhostps.com
+
+Time Warner KLRN account number - # 38490 
+ORDER NUMBER FROM PAST - # 775293 
+https://customerportal.twtelecom.com/Login.aspx
+support@twtelecom.net
+(800) 829-0420
+
+Account Manager Shannon Heimburger, (636) 625-7320, shannon.heimburger@level3.com
+
+Rich Hallock
+Rob.Freeman@twtelecom.com
+
+xxPam Griffin
+xxCustomer Relationship Specialist
+xxxxTwtelecom
+210-524-5565 office
+xx1-303-803-9971 fax
+xxPamela.griffin@twtelecom.com
+
+xxThomas Harris  account manager  636-625-7013  Thomas.Harris@level3.com
+xxScott Riley
+xxscott.riley2@level3.com 
+
+
+Blogger pr@klrn.org klrn9pr1
+
+Microsoft account pr@klrn.org pubTV78215 
+Microsoft - THIS WEBMASTER TOOLS ACCOUNT DOES NOT APPEAR TO EXIST ANYMORE 
+            Bing webmaster pr@klrn.org Klrn2014*
+
+Microsoft - ALAMO PUBLIC TELECOMMUNICATIONS COUNCIL DBA KLRN - User profile
+@ w*
+https://account.activedirectory.windowsazure.com/r/#/profile
+
+Allegiance Knowledge Base
+https://help.allegiancesoftware.com/knowledgeBase
+
+OPI Allegiance Member Portal Membership Portal
+Allegiance Software Client Portal @ Klrn2023*
+support@alleg.com
+
+Allegiance reset password
+Domain\user name:	ASCloud\Patrick.Driscoll
+https://www.allegiancecloud.com/RDWeb/Pages/en-US/login.aspx?ReturnUrl=default.aspx
+Klrn2024**
+
+Allegiance Browser URl ASCloud\Patrick.Driscoll Klrn20223*
+https://afg.allegiancecloud.com/RDWeb/Pages/en-US/login.aspx
+ 
+Connecting to the Allegiance Azure Platform (updated October 2018)
+https://alleg.tv/UserGuides172/CLD-ConnectToCloud/ToTheCloud.html
+\\AScloud-SQL12B
+\\AScloud-FS01\Klrn\Docs
+Server: Afg-Cnt-Sql01
+Documents: Afg-Cnt-file01\klrn\Docs
+
+https://samarketplace.com/Admin/
+https://samarketplace.com/Admin/GetPassword.asp
+klrnlearning       KL$rnL7
+
+Corporation for Public Broadcasting
+CPB http://dca.qcatalyst.com/ pdriscoll Klrn2020*
+
+PBS account @ Klrn2022*
+ourneighborhood.pbs.org @ Klrn2020*
+PBS Producers/Stations Support Klrn2018*
+myPBS.org @ Klrn2020*
+
+connect.pbs.org
+pdr@ s
+pr@ klrn9pr1
+
+https://mvault-qa.console.pbs.org/admin/login/
+http://mvaultsupport.pbs.org/support/login Klrn16*
+Passport http://mypbs.org/passport/
+
+PBS Station Manager 
+https://station.console.pbs.org/admin/stations/
+
+PBS Media Manager
+https://media.console.pbs.org/admin/shows/
+
+PBS Curate
+https://curate.console.pbs.org/
+
+PBS HUB (was Station Management Center) @ KlrnTV2025**
+https://hub.pbs.org/
+
+PBS Local Analytics Dashboard project on Basecamp @ Klrn2020*
+URL: https://pbs-org.domo.com  
+Username: domo.station+klrn@gmail.com 
+Password: klrn_domo_111  
+Basecamp URL - https://basecamp.com/2379412/ 
+Joe Miscavige jamiscavige@pbs.org
+
+PBS Avail and Interstitial Manager (AIM) 
+pdriscoll@klrn.org
+Station: KLRN
+Role: Station Admin
+https://aim.console.pbs.org/
+https://docs.pbs.org/display/AVAIL
+
+TV Listings Manager: https://tvss.services.pbs.org/login/
+Login: PBS/Single Sign-On Account
+Documentations: https://docs.pbs.org/space/TLM/5046280/TV+Listings+Manager 
+Changes: Picked up daily by Gracenote at 4 a.m., shows up on PBS digital schedules within 90 minutes, but Gracenote requires 72 hours to populate changes in other schedules  
+Interface: Can only look at 24 hours at a time, and can't make edits more than two weeks out
+
+PBS Interactive pdriscoll@klrn.org Klrn12
+PBS and Mindflash
+	https://pbs888.mindflash.com/	Klrn14*
+	https://pbs888.mindflash.com/PublicCoursePage.aspx?CourseId=681653111	Klrn14*
+	training instance: http://bat3.lunchbox.pbs.org/   U: bat7   P: bat7
+github ptdriscoll C@
+Jennifer Carter  Station Products & Innovation  703.739.8639  jncarter@pbs.org
+Max Duke, LinkedIn: http://www.linkedin.com/in/maximilianduke
+Amy L. Lust   allust@pbs.org   703-739-5108
+PBS Source https://source.pbs.org/ and PBS Station Exchange @ Pbs2020*12!@
+Joe Hilton PBS Help Desk 703-739-8674
+Katie M. Wilson, 703.739.5105, kmwilson@pbs.org  
+
+
+ftp.pbs.org
+username: stations
+password: w3!+mous3
+
+PBS Digital Immersion Klrn2020*
+https://catalog.publicmedialearns.org/dashboard/in-progress?current_user_id=356
+
+PBS Digital Immersion Slack
+https://app.slack.com/client/T0Y7JC3PF/G4FC88KQB
+@ K20
+
+
+ 
+
+flickr Insideklrn Klrn9pr 
+
+Mashery klrn klrn2013
+display name KLRN
+
+iriscouch.com      klrn.iriscouch.com      @ Klrn123*
+login.persona.org                          @ Klrn123*
+
+https://zapier.com/# pdriscoll K9
+
+PBS PressRoom ptdriscoll K13
+
+ima @ B@
+ima Patrick Patrick1
+
+lynda pr@klrn.org  klrn_training  Klrn17*
+
+@  trumba , editor  pr@klrn.org  klrn9pr1
+
+PBS Basecamp https://pbsi.basecamphq.com pdriscoll@klrn.org Klrn12
+
+PBS Regional Meeting in SA 2016 PBSreg2016&
+
+constant contact
+pr@klrn.org  pw SATXKLRN_PR2020  2102709000
+ptdriscoll Klrn2022*
+
+const contact members
+CANCELLED klrnmembership  klrn9member1
+pdriscoll@klrn.org  Klrn2017*
+Kawamura
+
+4873 0100 0044 1472
+11/19
+1472 435
+
+billing@constantcontact.com
+reference email address as user name
+copy of 501c3 and tax-exempt number  
+
+
+    Libby Peterek
+    Director of Web Services
+    P.O. Box 7158
+    Austin, TX 78713
+    512.471.5829
+    Email
+    http://www.klru.org/
+
+codeacademy.com PatSA S@
+
+https://blazinggavels.com/webmaster.asp klrn admin321
+
+http://blazinggavels.com/register.asp   GaPatrickD   Klrn9
+pdriscoll@klrn.org
+Verification Code: 77469829721090
+
+auction.klrn.org
+http://auction.klrn.org
+http://auction.klrn.org/AdminStyle.taf?_function=CSS
+http://auction.klrn.org/AdminSystem.taf   klrnadmin501   bidoften2014
+
+ZuberTubers.com Findleslie@gmail.com
+Leslie Siegel leslie@gottalook.com (310) 936-0825 
+Cust: # 862894
+Pw: ZUBER119x@
+
+FTP Username: zubertubers@sugarbaddie.com
+FTP server: sugarbaddie.com
+FTP & explicit FTPS port:  21
+aqd953d?I8&y
+Findleslie@gmail.com
+
+ 
+
+Ustream klrntv klrn9pr1
+
+Bringshare
+K4
+
+Allegiance forums @ Klrn13*
+
+C:\Allegiance\publishedsites\WebModuleV862
+
+Ron King ron@alleg.com (701) 499-7734
+Merle
+Lois
+To access Allegiance support, please call 877-858-7654. Identify yourself as calling from KLRN
+
+Allegiance email, 207.71.46.16 or elmo.klrn.org, from Members@klrn.org, no UN or PW, 25 
+http://207.71.47.8/alleg/AllegWebApplications/TestEmailSetup.aspx
+
+ALLEGIANCE SUPPORT WEBSITE https://help.allegiancesoftware.com/dashboard pdriscoll@klrn.org tByNiye98
+
+Allegiance Fundraising
+Utilities User Guide
+https://alleg.tv/UserGuides172/FR-Utilities/Utilities.html
+
+public relations
+   PubRel
+      Programs
+         Promo graphic templates
+
+forms and lists
+   public relations
+
+elmo - web
+207.71.47.4
+
+noah - file
+207.71.46.12
+
+arthur - remote
+207.71.46.13  klrn_org\
+
+Protrack - Informax
+
+Linux firewall
+
+Username:texasweek@klrn.org
+Pass: withrickcasey
+
+Google                    KLRN PR   pr@klrn.org           prKLRNtv2022+
+Gmail                     KLRNTV    klrntv78215@gmail.com prKLRNtv2022+						 
+Google Grants/Analytics   KLRN TV   klrn78215@gmail.com   klrn9pr3
+                                                
+Google Ads Adwords customer ID: 597-353-9591
+Google DoubleClick   pr@klrn.org klrn9pr1
+PBS DoubleClick (pre-rolls)
+  OLD account https://www.google.com/dfp/6735#home pdriscoll@klrn.org klrn9pr3
+  NEW account https://admanager.google.com/22540141786#home  
+  Google Ad Manager Station Guide https://docs.pbs.org/display/MM/Google+Ad+Manager+Station+Guide
+
+Google Search Console   klrn78215@gmail.com
+https://search.google.com/search-console?utm_source=about-page&resource_id=https://www.klrn.org/   
+
+Bing Webmaster Tools   klrn78215@gmail.com
+https://www.bing.com/webmasters?siteUrl=https%3A%2F%2Fwww.klrn.org%2F
+
+Google THIS SEARCH CONSOLE ACCOUNT IS FOR HTTP, AND SO IS DEPRECATED
+       webmaster pr@klrn.org klrn9pr1
+
+SEOTools @ klrn
+
+YouTube pr@klrn.org prKLRNtv2022+
+(100 mg limit, Jack Morgan)
+
+bitly pr@klrn.org klrn9pr1
+
+Twitter  pr@klrn.org  PBSSA_TX123!
+Twitter KLRNnews klrnNEWS501broadway
+
+
+Roy Schwaerzel <Roy@nuMedia.com>
+210-823-9511
+
+http://statcounter.com/
+cwvaughn  klrndt
+
+http://www.zoomerang.com/
+cvaughn@klrn.org  KLRNdt08 (that’s Zero 8)
+
+Katrina c (757) 289-5286, husb c (757) 535-1058
+
+1st floor – 412
+2nd floor - 13790
+3rd floor – 2013
+
+klrnwine Klrn15*
+wine@klrn.org elmo.klrn.org wine bor/cab14
+http://veteranscominghome.klrn.org/wp-login.php pdriscoll   admin Vch1903!!   preview vch2014! 
+
+kaggle
+pdriscoll @ S@
+
+RT pt V1278
+
+barbara_smec@sbcglobal.net
+Doctrine88_119
+
+===
+DNS
+Used to have to log in every 6 months to prevent account from being deactivated
+https://my.level3.com/ 
+https://www.centurylink.com/business/login/ 
+https://www.lumen.com/login/
+patrick.driscoll  @ Klrn2022*&^% (sign in with patrick.driscoll, not email)
+
+All requests will be under Services -> Change Requests - MyLevel3 -> New Change Request, then select: 
+  - Internet & VPN (DNS, BGP, IP justification) > DNS Change 
+
+Customer Name: KLRN 
+Billing Account Number: 38490 
+A Location Address: 501 BROADWAY ST, SAN ANTONIO, TX USA
+
+Coahoma
+Camden
+
+877-453-8353 opt 1 if you already have a ticket
+•  877-453-8353 (303-260-4905), option 5 
+•  control.center@Lumen.com 
+•  Hours: 6 a.m. to 6 p.m. MT 
+===
+
+Motion Array
+icruz@klrn.org KLrN9PR23! 
+
+Public Media Learns
+@ Klrn2020*
+https://catalog.publicmedialearns.org/dashboard/in-progress
+
+https://portal.adp.com/  PDriscoll@AlamoPublC  w22*
+
+https://performancehcm.com/  2687pdriscoll  webstAr23*
+
+https://performancehcm.myisolved.com/default.aspx pdriscoll@klrn.org KlrnTV2020!@

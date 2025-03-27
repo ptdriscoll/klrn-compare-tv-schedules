@@ -1,0 +1,37 @@
+
+Strengths
+Comment on a major achievement over the last year and/or strength(s) of yours that best contribute to the success of your team. Provide examples & impact.
+
+My strengths include coding skills, data analysis, content strategy, user-experience design, and journalism experience. 
+
+Projects I’ve been part of over the past year include ¡Salud!, Hank & Emma Faye, The Black Church, Future of Work, Muhammad Ali, a new Sponsorship web page, and Camp TV. Each of these projects have a consistently clean and attractive  web page, which I was able to efficiently create thanks to our Bento templates along with some custom-coded modules such as our YouTube video player.   
+
+The biggest project of the year involved migrating assets of an old in-house server to a cloud server. This included configuring a cloud account for a virtual server, and refactoring code from ASP.NET to PHP. This server hosts assets that don’t conveniently fit into our core Bento website, and gives us flexibility to  host some high-impact applications.   
+
+Identify the two most important things KLRN can do that would improve your work environment, your ability to do your job more efficiently and/or effectively and that would help you achieve your career goals and enhance your career development and personal satisfaction or that would help the KLRN better achieve its mission and goals.
+
+I would like to strategically apply my knowledge of A/B testing, predictive analysis and application development. The idea is to target high-impact opportunities that either increase revenues, strengthens our community reach, or automates repetitive tasks. 
+
+Because of technical dependencies, we would want to focus on projects that don’t break our core online presence. For example, while our pledge search-gift application brings in up to $50,000 a year, if for some reason we were not able to run the app during a pledge, online donations would still occur.
+
+Also, we would want to be strategic since my time is limited by everyday tasks and occasional updates. And we would want to target opportunities that do not significantly increase ongoing workloads.
+Here are some ideas:
+
+•	Use A/B testing and user feedback to drive continuous improvements to member donation funnels. Previous testing we did indicates we could increase giving by up to $100,000 a year.
+•	Leverage data from Allegiance, Passport and Wealth Engine to create donor profiles. We could learn characteristic of who is likely to donate, renew or lapse.
+•	Ian Cruz’s idea to hold a citywide SanAntoVision event, loosely modeled on EuroVision, will need an online application backed by a database. Experiments like this could pave the way to generating deep community involvement like we had with Blazing Gavels, and help us cultivate a younger audience.
+•	If we are going to use data to inform our decisions, an online dashboard would be a good way to pull together key performance indicators into a convenient location that’s easily accessible.
+
+________________________________________
+
+A hybrid schedule working 2 to 3 days a week in the office and 2 to 3 days remotely. This would provide a good balance to benefit from interactions with coworkers, including serendipities discussions and brainstorming, as well as uninterrupted times to focus on more intensive projects.    
+
+Identify other topics or issues you would like to discuss with your supervisor.
+
+I would like to discuss ways to increase my value to KLRN so that I can earn more. Also, while in past years I have been receiving cost-of-living increases, for the first time I'm concerned that my salary has fallen below my starting pay when adjusted for inflation. 
+
+
+
+
+
+
