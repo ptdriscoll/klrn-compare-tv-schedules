@@ -40,14 +40,19 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1', start_date=
     Notes:
         - CSV files are merged into a DataFrame on the columns: Channel, Date, and Start Time as keys.
         - All other columns are included with names concatenated with either " - (file 1 name)" or " - (file 2 name)".
-        - A DateTime column is added to filter by shared timeframes, and then sort by date and time, before being dropped.
-        - A MISMATCH column is added, and values in "Program Name - (file 1 name)" and "Program Name - (file 2 name)" are compared:
-            - If they match, the value of MISMATCH is ''.
-            - If they don't match, the value of MISMATCH is 'YES'.
-        - "Nola Episode - (file 1 name)" and "Nola Episode - (file 2 name)" are also compared if both columns exist and have values:
-            - If they don't match, the value of MISMATCH is set to 'YES'.
-        - "Episode Number - (file 1 name)" and "Episode Number - (file 2 name)" are also compared if both columns exist and have values:
-            - If they don't match, the value of MISMATCH is set to 'YES'.            
+        - A DateTime column is added to filter by timeframes, and then sort by date and time, before being dropped.
+        - A MISMATCH column is added, and comparisons are performed in the following order:
+            1. "Nola Episode - (file 1 name)" and "Nola Episode - (file 2 name)" are compared if both columns exist and have values:
+                - If they match, the row is marked as checked by setting the value of MISMATCH to 'NO'.
+                - If they don't match, the value of MISMATCH is set to 'YES'.
+            2. If no mismatch was found in the previous step, "Episode Number - (file 1 name)" and "Episode Number - (file 2 name)" are compared 
+               if both columns exist and have values:
+                - If they match, the row is marked as checked by setting the value of MISMATCH to 'NO'.
+                - If they don't match, the value of MISMATCH is set to 'YES'.
+            3. If no mismatch was found in the previous steps, "Program Name - (file 1 name)" and "Program Name - (file 2 name)" are compared:
+                - If they match, MISMATCH is leaft as empty ('').
+                - If they don't match, the value of MISMATCH is set to 'YES'.
+        - At the end, any rows marked as 'NO' under MISMATCH is reset to an empty string ('').          
     """
     
     # read in CSV files as dataframes
@@ -96,25 +101,36 @@ def compare_tv_schedules(path_1, path_2, output_path, channel='9.1', start_date=
     # create MISMATCH column
     df.insert(0, 'MISMATCH', '')
 
-    # compare program names
-    mask_names = df[f'Program Name - {file_1_name}'].str.lower() != df[f'Program Name - {file_2_name}'].str.lower()
-    df.loc[mask_names, 'MISMATCH'] = 'YES'
-
     # Compare Nola Episode, if both columns exist
     nola_episode_col_1 = f'Nola Episode - {file_1_name}'
     nola_episode_col_2 = f'Nola Episode - {file_2_name}'
     if nola_episode_col_1 in df.columns and nola_episode_col_2 in df.columns:
         mask_nola_episode_exist = df[f'Nola Episode - {file_1_name}'].notna() & df[f'Nola Episode - {file_2_name}'].notna()
         mask_nola_episode = df[f'Nola Episode - {file_1_name}'] != df[f'Nola Episode - {file_2_name}']
+
+        # set MISMATCH column to 'NO' or 'YES'
+        df.loc[mask_nola_episode_exist, 'MISMATCH'] = 'NO'
         df.loc[mask_nola_episode_exist & mask_nola_episode, 'MISMATCH'] = 'YES'
 
-    # compare Episode Number, if both columns exist
+    # compare Episode Number, if both columns exist, and only if no Nola Episode mismatch was found
     episode_col_1 = f'Episode Number - {file_1_name}'
     episode_col_2 = f'Episode Number - {file_2_name}'
     if episode_col_1 in df.columns and episode_col_2 in df.columns:
-        mask_episodes_exist = df[f'Episode Number - {file_1_name}'].notna() & df[f'Episode Number - {file_2_name}'].notna()
-        mask_episodes = df[f'Episode Number - {file_1_name}'] != df[f'Episode Number - {file_2_name}']
-        df.loc[mask_episodes_exist & mask_episodes, 'MISMATCH'] = 'YES'
+        mask_not_checked_yet = df['MISMATCH'] == ''
+        mask_episodes_exist = df[episode_col_1].notna() & df[episode_col_2].notna()
+        mask_episodes = df[episode_col_1] != df[episode_col_2]
+
+        # set MISMATCH column to 'NO' or 'YES'
+        df.loc[mask_not_checked_yet & mask_episodes_exist, 'MISMATCH'] = 'NO'
+        df.loc[mask_not_checked_yet & mask_episodes_exist & mask_episodes, 'MISMATCH'] = 'YES'
+
+    # compare program names, only if no mismatch was found in either Nola Episode or Episode Number
+    mask_not_checked_yet = df['MISMATCH'] == ''
+    mask_names = df[f'Program Name - {file_1_name}'].str.lower() != df[f'Program Name - {file_2_name}'].str.lower()
+    df.loc[mask_not_checked_yet & mask_names, 'MISMATCH'] = 'YES' # set MISMATCH column to 'YES' or leave as ''
+
+    # convert each 'NO' value in MISMATCH column back to an empty string
+    df.loc[df['MISMATCH'] == 'NO', 'MISMATCH'] = ''      
 
     # compile only mismatches
     df_mis = df[df['MISMATCH'] == 'YES']
