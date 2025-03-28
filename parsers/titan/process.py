@@ -170,7 +170,7 @@ def parse(input_path):
         - Date (datetime.date): The broadcast date.
         - Start Time (datetime.time): The program's start time.
         - Program Name (str): The name of the TV program.
-        - Episode Number (str, optional): The episode number, if available.
+        - Nola Episode (str, optional): The episode number, if available.
         - Description (str, optional): A brief description of the program.
     """     
     
