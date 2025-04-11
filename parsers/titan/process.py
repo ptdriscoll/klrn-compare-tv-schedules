@@ -221,7 +221,7 @@ def parse(input_path):
             
             # get TV channel from file name, and add as column to df
             file_name = Path(input_path).name
-            match = re.search(r'_(.*?)\.mhtml$', file_name)
+            match = re.search(r'_([^_]+)\.mhtml$', file_name)
             channel = match.group(1) if match else '9.1'
             df.insert(0, 'Channel', channel)             
             df['Channel'] = df['Channel'].astype(str)
