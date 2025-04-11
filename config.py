@@ -8,14 +8,11 @@ load_dotenv()
 # example: {'parser': ['file_name_1.pdf', 'file_name_2.pdf']}
 FILES = {
     'protrack': [  # pdf format
-        'Protrack-2025-04.pdf'
+        'Protrack_2025-04-13_2025-05-03.pdf'
     ], 
     'titan': [  # mhtml format
-        'MediaStar-2025-04-01_9.1.mhtml',
-        'MediaStar-2025-04-08_9.1.mhtml',
-        'MediaStar-2025-04-15_9.1.mhtml',
-        'MediaStar-2025-04-16_9.1.mhtml',
-        'MediaStar-2025-04-08_9.2.mhtml'        
+        'MediaStar_2025-04-11_9.2.mhtml',
+        'MediaStar_2025-04-11_9.2.mhtml'      
     ], 
     'pbs': [  # json format
         'pbs.json'
